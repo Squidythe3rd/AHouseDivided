@@ -1,0 +1,101 @@
+characters = {
+	CSA_McAdoo = {
+		name = "William G. McAdoo" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CSA_McAdoo
+			}
+		}
+		country_leader = {
+			ideology = oligarchy
+			desc = "politics_McAdoo_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Huey_Long_P = {
+		name = "Huey P. Long" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CSA_Huey_Long
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			desc = "politics_Long_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Bibb_Graves = {
+		name = "D. Bibb Graves" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CSA_Bibb_Graves
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			desc = "politics_Bibb_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Huey_Long_A = {
+		name = "Huey P. Long" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CSA_Huey_Long
+			}
+		}
+		country_leader = {
+			ideology = populistsocdem
+			desc = "politics_Long_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Richard_Russell = {
+		name = "Richard Russell Jr." 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CSA_Richard_Russell"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			desc = "politics_russell_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Hiram_Evans = {
+		name = "Hiram Wesley Evans" 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CSA_Hiram_Evans"
+			}
+		}
+		country_leader = {
+			ideology = klanism
+			traits = { wizard }
+			desc = "politics_Hiram_desc"
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	CSA_Patton = {
+		name = "George S. Patton" 
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_CSA_Patton"
+			}
+		}
+		country_leader = {
+			ideology = autocracy
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

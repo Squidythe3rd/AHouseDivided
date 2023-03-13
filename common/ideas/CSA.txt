@@ -1,0 +1,104 @@
+ideas = {
+
+	country = {
+		invisible_empire = {
+			picture = csa_invisible_empire
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.15
+				conscription_factor = -0.05
+				fascist_drift = 0.25
+				fascist_acceptance = 20
+			}
+		}
+		visible_empire = {
+			picture = csa_visible_empire
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 1
+				conscription_factor = 0.15
+				drift_defence_factor = 0.5
+				fascist_drift = 0.25
+				fascist_acceptance = 20
+			}
+		}
+		slavery_legacy = {
+			picture = csa_slavery_legacy
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.15
+				stability_factor = -0.05
+				conscription_factor = -0.25
+			}
+		}
+		csa_huey = {
+			picture = csa_huey
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				socdem_drift = 0.05
+				libdem_drift = 0.05
+			}
+		}
+		csa_great_depression = {
+			picture = csa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.5
+				conscription_factor = -0.5
+				socdem_drift = 0.05
+				libdem_drift = 0.05
+				fascist_drift = 0.25
+			}
+		}
+}

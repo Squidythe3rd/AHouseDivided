@@ -1,0 +1,49 @@
+"Local French Autonomy" = {
+	icon = GFX_idea_BRA_Guiana
+	enable = {
+		is_controlled_by = BRA
+	}
+	remove_trigger = {
+		NOT = {
+			is_owned_by = BRA
+			owner = { has_war_with = BRA }
+		}
+	}
+	state_resources_factor = -0.5
+	local_factories = -0.5
+
+	recruitable_population_factor = -0.5
+	resistance_growth = -0.5
+}
+"Uruguayan Nationalism" = {
+	icon = GFX_idea_BRA_Uruguay
+	enable = {
+		is_controlled_by = BRA
+	}
+	remove_trigger = {
+		NOT = {
+			is_owned_by = BRA
+			owner = { has_war_with = BRA }
+		}
+	}
+	state_resources_factor = -0.5
+	local_factories = -0.5
+
+	recruitable_population_factor = -0.5
+}
+"Memories of Paraguay" = {
+	icon = GFX_idea_BRA_Paraguay
+	enable = {
+		is_controlled_by = BRA
+	}
+	remove_trigger = {
+		NOT = {
+			is_owned_by = BRA
+			owner = { has_war_with = BRA }
+		}
+	}
+	state_resources_factor = -0.1
+	local_factories = -0.1
+
+	recruitable_population_factor = -0.1
+}

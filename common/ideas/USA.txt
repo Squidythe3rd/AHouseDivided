@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		usa_empire = {
+			picture = usa_empire
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.15 
+			}
+		}
+		usa_polarization = {
+			picture = usa_polarization
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.15 
+				drift_defence_factor = -0.25
+				socialist_drift = 0.02
+				socdem_drift = 0.02
+				condem_drift = 0.02
+			}
+		}
+		usa_secession = {
+			picture = usa_secession
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.05
+			}
+		}
+		usa_depression = {
+			picture = usa_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = 0.15
+				join_faction_tension = 0.15
+				local_resources_factor = -0.15
+				communist_drift = 0.01
+				socialist_drift = 0.02
+			}
+		}
+}

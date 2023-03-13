@@ -1,0 +1,399 @@
+﻿focus_tree = {
+	id = Confederate_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = CSA_addressing_crisis
+		icon = GFX_CSA_addressing_crisis
+		x = 16
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			country_event = Confederacy.1
+		}
+	}
+
+	focus = {
+		id = CSA_start_investigation
+		icon = GFX_CSA_start_investigation
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_addressing_crisis
+		}
+		relative_position_id = CSA_addressing_crisis
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_political_power = 50
+			country_event = Confederacy.2
+		}
+	}
+
+	focus = {
+		id = CSA_empire_stability
+		icon = GFX_CSA_empire_stability
+		x = 2
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_start_investigation
+		}
+		relative_position_id = CSA_start_investigation
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_army_evaluation
+		icon = GFX_CSA_army_evaluation
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_empire_stability
+		}
+		relative_position_id = CSA_empire_stability
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_investigate_patton
+		icon = GFX_CSA_investigate_patton
+		x = 2
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_empire_stability
+		}
+		relative_position_id = CSA_empire_stability
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_klan_sympathies
+		icon = GFX_CSA_klan_sympathies
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_investigate_patton
+		}
+		prerequisite = { 
+			focus = CSA_army_evaluation
+		}
+		relative_position_id = CSA_army_evaluation
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_popularity = { ideology = fascist popularity = -0.01 }
+		}
+	}
+
+	focus = {
+		id = CSA_party_evaluation
+		icon = GFX_CSA_party_evaluation
+		x = -2
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_start_investigation
+		}
+		relative_position_id = CSA_start_investigation
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_investigate_long
+		icon = GFX_CSA_investigate_long
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_party_evaluation
+		}
+		relative_position_id = CSA_party_evaluation
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_investigate_bibb
+		icon = GFX_CSA_investigate_bibb
+		x = -2
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_party_evaluation
+		}
+		relative_position_id = CSA_party_evaluation
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_infiltrate_africa
+		icon = GFX_CSA_infiltrate_africa
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_investigate_long
+		}
+		prerequisite = { 
+			focus = CSA_investigate_bibb
+		}
+		relative_position_id = CSA_investigate_long
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_the_people
+		icon = GFX_CSA_the_people
+		x = 2
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_infiltrate_africa
+		}
+		prerequisite = { 
+			focus = CSA_klan_sympathies
+		}
+		relative_position_id = CSA_infiltrate_africa
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			country_event = Confederacy.11
+		}
+	}
+}

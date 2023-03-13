@@ -1,0 +1,87 @@
+characters={
+	USA_philip_follette={
+		name= "Philip La Follette"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_philip_follette
+			}
+		}
+		country_leader={
+			ideology=progressivism
+			traits = { la_follette }
+			desc = "politics_philip_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_sinclair={
+		name= "Upton B. Sinclair"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_sinclair
+			}
+		}
+		country_leader={
+			ideology=demsoc
+			desc = "politics_sinclair_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_hoover={
+		name= "Herbert C. Hoover"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_hoover
+			}
+		}
+		country_leader={
+			ideology=conservatism 
+			desc = "politics_hoover_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_landon={
+		name= "Alfred M. Landon"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_landon
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			desc = "politics_landon_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_gerald_smith={
+		name= "Gerald L.K Smith"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_gerald_smith
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			desc = "politics_gerald_smith_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_george_marshall={
+		name= "George C. Marshall"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_george_marshall
+			}
+		}
+		country_leader={
+			ideology=autocracy
+			desc = "politics_george_marshall_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

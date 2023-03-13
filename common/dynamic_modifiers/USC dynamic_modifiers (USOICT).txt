@@ -1,0 +1,22 @@
+"Canadian Separatism" = {
+	icon = GFX_idea_USC_Canada
+	enable = {
+		is_controlled_by = USC
+		is_controlled_by = USA
+	}
+	state_resources_factor = -0.5
+	local_factories = -0.5
+	recruitable_population_factor = -0.5
+}
+"Newfoundland Separatism" = {
+	icon = GFX_idea_USC_Newfoundland
+	enable = {
+		is_controlled_by = USA
+	}
+	state_resources_factor = -0.1
+	local_factories = -0.1
+
+	recruitable_population_factor = -0.1
+	resistance_growth = 0.1
+}
+

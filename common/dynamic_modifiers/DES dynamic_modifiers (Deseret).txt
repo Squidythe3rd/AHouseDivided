@@ -1,0 +1,18 @@
+"Local Navajo Autonomy" = {
+	icon = GFX_idea_DES_Navajo
+	enable = {
+		is_controlled_by = DES
+	}
+	remove_trigger = {
+		NOT = {
+			is_owned_by = DES
+			owner = { has_war_with = DES }
+		}
+	}
+	state_resources_factor = -0.75
+	local_factories = -0.75
+
+	recruitable_population_factor = -0.75
+	resistance_growth = -0.75
+}
+

@@ -1,0 +1,10 @@
+"Southern Sympathies" = {
+	icon = GFX_idea_USA_Southerners
+	enable = {
+		is_controlled_by = USC
+		is_controlled_by = USA
+	}
+	state_resources_factor = -0.15
+	recruitable_population_factor = -0.15
+}
+

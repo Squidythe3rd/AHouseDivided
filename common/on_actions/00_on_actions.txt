@@ -1,0 +1,13 @@
+on_actions = {
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					NOT = { 
+						AND = { 
+							TAG = PHI 
+							} 
+						} 
+					} 
+				drop_cosmetic_tag = yes
+			}

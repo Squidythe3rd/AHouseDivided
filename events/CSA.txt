@@ -1,0 +1,52 @@
+﻿
+add_namespace = Confederacy
+
+country_event = {
+	id = Confederacy.1
+	title = Confederacy.1.t
+	desc = Confederacy.1.d
+	picture = GFX_report_event_CSA_oval_office
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.1.a
+		ai_chance = { factor = 90 }
+		}
+	}
+
+country_event = {
+	id = Confederacy.2
+	title = Confederacy.2.t
+	desc = Confederacy.2.d
+	picture = GFX_report_event_CSA_oval_office
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.2.a
+		ai_chance = { factor = 90 }
+		}
+	}
+
+country_event = {
+	id = Confederacy.11
+	title = Confederacy.11.t
+	desc = Confederacy.11.d
+	picture = GFX_report_event_CSA_mcadoo_speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.11.a
+		ai_chance = { factor = 90 }
+		retire_character = CSA_McAdoo
+		set_politics = {
+			ruling_party = condem
+			elections_allowed = no
+		}
+		add_stability = -0.5
+		add_popularity = { ideology = patdem popularity = -0.1 }
+		}
+	}
+}
