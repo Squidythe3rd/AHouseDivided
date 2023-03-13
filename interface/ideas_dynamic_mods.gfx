@@ -1,0 +1,40 @@
+spriteTypes = {
+
+	## American Canada ##
+
+	spriteType = {
+		name = "GFX_idea_USC_Canada"
+		texturefile = "gfx/interface/ideas/USC_Canada.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USC_Newfoundland"
+		texturefile = "gfx/interface/ideas/USC_Newfoundland.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRA_Guiana"
+		texturefile = "gfx/interface/ideas/BRA_Guiana.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRA_Uruguay"
+		texturefile = "gfx/interface/ideas/BRA_Uruguay.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BRA_Paraguay"
+		texturefile = "gfx/interface/ideas/BRA_Paraguay.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_USA_Southerners"
+		texturefile = "gfx/interface/ideas/USA_Southerners.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DES_Navajo"
+		texturefile = "gfx/interface/ideas/DES_Navajo.png"
+	}
+}
+

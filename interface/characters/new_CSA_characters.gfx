@@ -1,0 +1,20 @@
+spriteTypes = {	
+
+	
+	spriteType = {
+		name = "GFX_portrait_CSA_McAdoo"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_McAdoo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CSA_Richard_Russell"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Richard_Russell.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CSA_Hiram_Evans"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Hiram_Evans.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CSA_Huey_Long"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Huey_Long.dds"
+	}
+}

@@ -1,0 +1,17 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_autonomy_colonial_government_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colonial_government_icon.png"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_military_government_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_military_government_icon.png"
+	}
+	spriteType = {
+		name = "GFX_autonomy_dependent_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_dependent_state_icon.png"
+	}
+}
+
