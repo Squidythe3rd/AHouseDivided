@@ -1,0 +1,96 @@
+﻿capital = 542
+
+oob = "IDC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+recruit_character = IDC_aa2
+recruit_character = IDC_awt
+recruit_character = IDC_coi
+recruit_character = IDC_stc
+recruit_character = IDC_acgs
+recruit_character = IDC_nccr
+recruit_character = IDC_ncs
+recruit_character = IDC_nt
+recruit_character = IDC_communist_guy
+recruit_character = IDC_acr
+recruit_character = IDC_pot
+recruit_character = IDC_aco2
+recruit_character = IDC_mt
+recruit_character = IDC_ar
+recruit_character = IDC_fascist_guy
+recruit_character = IDC_acd2
+recruit_character = IDC_ncm
+recruit_character = IDC_ai2
+recruit_character = IDC_acas
+recruit_character = IDC_democratic_guy
+
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = IDCustrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#IDCustry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_IDCustry = 1
+		dispersed_IDCustry2 = 1
+	}
+}
+
+GER = {
+	set_autonomy = {
+		target = IDC
+		autonomy_state = colonial_government
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	
+	name = "Tshekedi Khama"
+	picture = GFX_portrait_Tshekedi_Khama
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
