@@ -1,0 +1,31 @@
+
+state={
+	id=685
+	name="STATE_685"
+
+	history={
+		owner = CSA
+		victory_points = {
+			1988 15 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			7617 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = NIC
+
+	}
+
+	provinces={
+		1988 7617 13139 
+	}
+	manpower=478100
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}
