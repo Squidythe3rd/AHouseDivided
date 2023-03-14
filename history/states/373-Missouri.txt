@@ -1,0 +1,31 @@
+
+state={
+	id=373
+	name="STATE_373"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+		add_core_of = MIS
+		add_dynamic_modifier = { modifier = "Southern Sympathies" }
+		victory_points = {
+			10391 1 
+		}
+		victory_points = {
+			7607 5 
+		}
+
+	}
+
+	provinces={
+		1523 7449 7607 10333 10391 10516 
+	}
+	manpower=998273
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=7.000
+}
