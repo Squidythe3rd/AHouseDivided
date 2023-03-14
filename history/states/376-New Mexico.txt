@@ -1,0 +1,37 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=14.000
+		aluminium=30.000
+	}
+
+	history={
+		owner = DES
+
+		add_dynamic_modifier = { modifier = "Local Navajo Autonomy" }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = DES
+
+		set_demilitarized_zone = yes
+
+		victory_points = {
+			4975 1 
+		}
+
+	}
+
+	provinces={
+		850 1793 1972 2102 4799 4975 6897 7821 10573 10642 10645 10867 11814 12552 12684 12765 
+	}
+	manpower=190864
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
