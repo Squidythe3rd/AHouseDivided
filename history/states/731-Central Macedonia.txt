@@ -1,0 +1,26 @@
+
+state={
+	id=731
+	name="STATE_731"
+
+	history={
+		victory_points = {
+			936 3 
+		}
+		owner = BUL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		936 3526 6990 9837 10163 
+	}
+	manpower=231140
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

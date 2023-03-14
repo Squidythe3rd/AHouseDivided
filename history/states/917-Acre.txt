@@ -1,0 +1,27 @@
+
+state={
+	id=917
+	name="STATE_917"
+	manpower = 36435
+	
+	state_category = pastoral
+	
+	resources={
+		rubber=12 # was: 4
+	}
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2198 5216 10960 
+	}
+
+	local_supplies=0.0 
+}

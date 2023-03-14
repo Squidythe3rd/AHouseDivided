@@ -1,0 +1,25 @@
+
+state={
+	id=857
+	name="STATE_857"
+
+	history={
+		owner = JAB
+		add_core_of = JAB
+		buildings = {
+			infastructure = 2
+		}
+		victory_points = {
+			4968 15
+		}
+
+	}
+
+	provinces={
+		1955 4968 5058 10850 10892 10923 12749 
+	}
+	manpower=78468
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

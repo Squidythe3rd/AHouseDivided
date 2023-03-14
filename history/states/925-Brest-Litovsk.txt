@@ -1,0 +1,27 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			3392 1 
+		}
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		3256 3392 6546 11466 11528 
+	}
+	manpower=739320
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

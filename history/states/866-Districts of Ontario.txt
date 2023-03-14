@@ -1,0 +1,18 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		761 763 3736 4753 
+	}
+	history = {
+		owner = USC
+
+		add_dynamic_modifier = { modifier = "Canadian Separatism" }
+
+		add_core_of = USC
+	}
+	manpower=10000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
