@@ -979,3 +979,10 @@ TEX = {
 	color = rgb { 243 212 55 }
 	color_ui = rgb { 243 212 55 }
 }
+VEE = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220 220 220 }
+}
+SOI = {
+	color = rgb { 153 38 38 }
+	color_ui = rgb { 153 38 38 }
