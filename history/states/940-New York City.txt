@@ -1,0 +1,20 @@
+state={
+	id=940
+	name="STATE_940"
+
+	history ={
+		owner = USA
+		buildings = {
+			infastructure = 5
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		859 3878 
+	}
+	manpower= 13481000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}
