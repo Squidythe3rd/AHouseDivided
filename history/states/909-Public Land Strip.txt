@@ -1,21 +1,23 @@
+
 state={
-	id=900
-	name="STATE_900"
-	manpower = 1163674
-	state_category = pastoral 
+	id=909
+	name="STATE_909"
 
 	history={
-		owner = BWA
-		add_core_of = NGA
+		owner = USA
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		1992 4889 8034 10831 
+		12624 
 	}
-	
+	manpower=32294
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

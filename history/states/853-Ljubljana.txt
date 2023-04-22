@@ -8,7 +8,7 @@ state=
 	
 	history =
 	{
-		owner = AUS
+		owner = GER
 		buildings = {
 			infrastructure = 3
 		}
@@ -17,6 +17,7 @@ state=
 		}
 		add_core_of = AUS
 		add_core_of = SLV
+		add_core_of = GER
 	}
 	provinces={
 		6650 9627

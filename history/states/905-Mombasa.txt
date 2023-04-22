@@ -1,23 +1,28 @@
 state={
-	id=892
-	name="STATE_892"
-	manpower = 960000
+	id=905
+	name="STATE_905"
+	manpower = 1017600
 	state_category = pastoral
 
 	history={
-		owner = POR
+		owner = BEA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			5210 = {
+				naval_base = 2
+
+			}
 		}
+
 		victory_points = {
-			10966 1 
+			5210 1 
 		}
-		add_core_of = POR
+		add_core_of = BEA
 
 	}
 
 	provinces={
-		8138 8202 10966 12391 12958 12985 
+		5196 5210 6020 
 	}
 
 	buildings_max_level_factor=1.000
