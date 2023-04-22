@@ -111,30 +111,21 @@ recruit_character = UKR_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = autocrat
 	last_election = "1932.11.27"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
-	}
+	communist = 5
+	socialist = 10
+	socdem = 15
+	libdem = 10
+	condem = 10
+	patdem = 15
+	autocrat = 20
+	fascist = 15
 }
 
 set_convoys = 80
