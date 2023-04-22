@@ -1,9 +1,6 @@
 ﻿capital = 327
 
 oob = "PHI_1936"
-set_cosmetic_tag = PHI_SPR
-
-
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PHI_1936_air_bba"
@@ -128,13 +125,11 @@ recruit_character = PHI_sergio_osmena
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = patdem
 	last_election = "1935.9.15"
 	election_frequency = 72
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 82
-	fascism = 9
-	communism = 9
+	patdem = 100
 }

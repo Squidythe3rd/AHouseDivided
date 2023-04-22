@@ -165,21 +165,27 @@ recruit_character = ITA_seyoum_mengesha_doppleganger
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = fascist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	socdem = 6
+	libdem = 4
+	condem = 7
+	patdem = 8
+	autocrat = 20
+	fascist = 55
 }
 
 create_country_leader = {
 	
-	name = "Tshekedi Khama"
-	picture = GFX_portrait_Tshekedi_Khama
+	name = "Benito Mussolini"
+	desc = "The leader of the Kingdom of Italy."
+	picture = "gfx/leaders/ITA/Portrait_ITA_Benito_Mussolini.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fascism
 	traits = {
 		#
 	}

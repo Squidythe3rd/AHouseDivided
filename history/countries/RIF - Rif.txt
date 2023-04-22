@@ -1,72 +1,63 @@
-﻿capital = 542
+﻿capital = 290
 
-oob = "IDC_1936"
+IF = {
+	limit = {has_dlc = "By Blood Alone"}
+	recruit_character =  RIF_abd_el_krim
+}
+
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_mountaineers = 1
 }
 
-set_convoys = 5
-
-recruit_character = IDC_aa2
-recruit_character = IDC_awt
-recruit_character = IDC_coi
-recruit_character = IDC_stc
-recruit_character = IDC_acgs
-recruit_character = IDC_nccr
-recruit_character = IDC_ncs
-recruit_character = IDC_nt
-recruit_character = IDC_communist_guy
-recruit_character = IDC_acr
-recruit_character = IDC_pot
-recruit_character = IDC_aco2
-recruit_character = IDC_mt
-recruit_character = IDC_ar
-recruit_character = IDC_fascist_guy
-recruit_character = IDC_acd2
-recruit_character = IDC_ncm
-recruit_character = IDC_ai2
-recruit_character = IDC_acas
-recruit_character = IDC_democratic_guy
-
+set_convoys = 10
 
 1939.1.1 = {
+	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = IDCustrial_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
 	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
 
 		#doctrines
+		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
+		computing_machine = 1
 
-		#IDCustry
+		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
-		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
-		dispersed_IDCustry = 1
-		dispersed_IDCustry2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
 	}
 }
+
 
 set_politics = {
 	ruling_party = patdem

@@ -1,36 +1,35 @@
-﻿capital = 542
+﻿capital = 430
 
-oob = "IDC_1936"
+#oob = ""
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_mountaineers = 1
 }
 
-set_convoys = 5
+recruit_character = ASA_pot
+recruit_character = ASA_aco2
+recruit_character = ASA_mt
+recruit_character = ASA_ar
+recruit_character = ASA_fascist_guy
+recruit_character = ASA_acd2
+recruit_character = ASA_ncm
+recruit_character = ASA_ai2
+recruit_character = ASA_acas
+recruit_character = ASA_democratic_guy
+recruit_character = ASA_aa2
+recruit_character = ASA_awt
+recruit_character = ASA_coi
+recruit_character = ASA_stc
+recruit_character = ASA_acgs
+recruit_character = ASA_nccr
+recruit_character = ASA_ncs
+recruit_character = ASA_nt
+recruit_character = ASA_communist_guy
+recruit_character = ASA_acr
 
-recruit_character = IDC_aa2
-recruit_character = IDC_awt
-recruit_character = IDC_coi
-recruit_character = IDC_stc
-recruit_character = IDC_acgs
-recruit_character = IDC_nccr
-recruit_character = IDC_ncs
-recruit_character = IDC_nt
-recruit_character = IDC_communist_guy
-recruit_character = IDC_acr
-recruit_character = IDC_pot
-recruit_character = IDC_aco2
-recruit_character = IDC_mt
-recruit_character = IDC_ar
-recruit_character = IDC_fascist_guy
-recruit_character = IDC_acd2
-recruit_character = IDC_ncm
-recruit_character = IDC_ai2
-recruit_character = IDC_acas
-recruit_character = IDC_democratic_guy
 
+set_convoys = 0
 
 1939.1.1 = {
 	#generic focuses
@@ -40,7 +39,7 @@ recruit_character = IDC_democratic_guy
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
 	complete_national_focus = flexible_navy
-	complete_national_focus = IDCustrial_effort
+	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
@@ -56,18 +55,17 @@ recruit_character = IDC_democratic_guy
 		radio_detection = 1
 		mechanical_computing = 1
 
-		#IDCustry
+		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		fuel_silos = 1
 		construction1 = 1
 		construction2 = 1
-		dispersed_IDCustry = 1
-		dispersed_IDCustry2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
 	}
 }
-
 set_politics = {
 	ruling_party = patdem
 	last_election = "1936.1.1"
@@ -77,3 +75,14 @@ set_politics = {
 set_popularities = {
 	patdem = 100
 }
+
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

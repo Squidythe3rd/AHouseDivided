@@ -81,33 +81,12 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = patdem
 	last_election = "1932.2.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 30
-	neutrality = 58
-	fascism = 12
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.2.9"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		neutrality = 95
-		communism = 5
-	}
-
-	recruit_character = KSM_leon_cortes_castro
-	promote_character = KSM_leon_cortes_castro
-	retire_character = KSM_ricardo_jiménez_oreamuno
-
+	patdem = 100
 }

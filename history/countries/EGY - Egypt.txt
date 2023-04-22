@@ -1,60 +1,58 @@
-﻿capital = 542
-
-oob = "MAF_1936"
+﻿capital = 907
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_mountaineers = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
 }
 
-set_convoys = 5
-
-recruit_character = MAF_aa2
-recruit_character = MAF_awt
-recruit_character = MAF_coi
-recruit_character = MAF_stc
-recruit_character = MAF_acgs
-recruit_character = MAF_nccr
-recruit_character = MAF_ncs
-recruit_character = MAF_nt
-recruit_character = MAF_communist_guy
-recruit_character = MAF_acr
-recruit_character = MAF_pot
-recruit_character = MAF_aco2
-recruit_character = MAF_mt
-recruit_character = MAF_ar
-recruit_character = MAF_fascist_guy
-recruit_character = MAF_acd2
-recruit_character = MAF_ncm
-recruit_character = MAF_ai2
-recruit_character = MAF_acas
-recruit_character = MAF_democratic_guy
-
+set_convoys = 20
 
 1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
+	complete_national_focus = large_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
 	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
 
 		#doctrines
+		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
 		mechanical_computing = 1
+		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -68,6 +66,7 @@ recruit_character = MAF_democratic_guy
 	}
 }
 
+
 set_politics = {
 	ruling_party = patdem
 	last_election = "1936.1.1"
@@ -79,11 +78,40 @@ set_popularities = {
 }
 
 create_country_leader = {
-	
-	name = "Tshekedi Khama"
-	picture = GFX_portrait_Tshekedi_Khama
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "Muhammad Naguib"
+	desc = ""
+	picture = GFX_portrait_Muhammad_Naguib
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmed Husayn"
+	desc = ""
+	picture = GFX_portrait_Ahmed_Husayn
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Farouk Muhammad Ali"
+	desc = ""
+	picture = "GFX_portrait_egy_faud_i"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hosni al-Arabi"
+	desc = ""
+	picture = GFX_portrait_Hosni_al_Arabi
+	ideology = leninism
 	traits = {
 		#
 	}

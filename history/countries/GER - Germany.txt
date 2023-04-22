@@ -189,14 +189,6 @@ create_import = {
 		extensive_conscription
 	}
 	
-	
-	
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
-	
-	give_military_access = SLO
 	create_wargoal = {
 		type = take_state_focus
 		target = POL
@@ -376,16 +368,35 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socdem
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	communist = 2
+	socialist = 10
+	socdem = 30
+	libdem = 20
+	condem = 18
+	patdem = 10
+	autocrat = 5
+	fascist = 5
+	
 }
+
+create_country_leader = {
+	
+	name = "Kaiser Wilhelm II"
+	desc = "The leader of the German Empire."
+	picture = "gfx/leaders/GER/Portrait_GER_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = progressivism
+	traits = {
+		#
+	}
+}
+
 
 create_faction = Reichspakt
 add_to_faction = GER
@@ -394,8 +405,8 @@ add_to_faction = UBD
 add_to_faction = CRI
 add_to_faction = POL
 add_to_faction = MAF
-add_to_faction = MAG
-add_to_faction = IDC
+add_to_faction = AUS
+add_to_faction = VEE
 
 	set_autonomy = {
 		target = UBD
@@ -421,10 +432,9 @@ add_to_faction = IDC
 		autonomous_state = autonomy_colonial_government
 	}
 	set_autonomy = {
-		target = IDC
-		autonomous_state = autonomy_colonial_government
+		target = VEE
+		autonomous_state = autonomy_supervised_state
 	}
-
 give_guarantee = UKR
 give_guarantee = BLR
 

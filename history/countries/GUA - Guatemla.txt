@@ -1,39 +1,45 @@
-﻿capital = 427
+﻿capital = 313
 
-oob = "HYD_1936"
+oob = "GUA_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	gw_artillery = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 
-recruit_character = HYD_ricardo_jiménez_oreamuno
-recruit_character = HYD_josé_maría_barahona
-recruit_character = HYD_lisandro_barillas
-recruit_character = HYD_jorge_peralta
-recruit_character = HYD_baptista_e_gutierrez
-recruit_character = HYD_hugo_montes_ramirez
-recruit_character = HYD_roberto_juarez_camposino
-recruit_character = HYD_guillermo_macho_nunez
-recruit_character = HYD_luis_fernandez_rodriguez
-recruit_character = HYD_jorge_volio_jimenez
-recruit_character = HYD_manuel_mora_valverde
-recruit_character = HYD_carlos_uribe_alpoveda
-recruit_character = HYD_felipe_abreu_castro
-recruit_character = HYD_francisco_rosendo_arguello
-recruit_character = HYD_tobias_picado_cortes
-recruit_character = HYD_oscar_padilla_sellean
-recruit_character = HYD_hugo_siedler_mendoza
-recruit_character = HYD_otto_cortes_fernandez
-recruit_character = HYD_jose_figueres_ferrer
-recruit_character = HYD_roberto_brenes_mesen
-recruit_character = HYD_julio_acalta_garcia
-recruit_character = HYD_chico_orlich_bolmarich
+recruit_character = GUA_jorge_ubico
+recruit_character = GUA_justo_arbenz
+recruit_character = GUA_máximo_arbenz
+recruit_character = GUA_diego_barahona
+recruit_character = GUA_jorge_torriello_garrido
+recruit_character = GUA_carlos_diaz_de_leon
+recruit_character = GUA_jacopo_arbenz_guzman
+recruit_character = GUA_w_tesch_orlando
+recruit_character = GUA_r_buenaventure_pineda
+recruit_character = GUA_tomas_mendoza_urribe
+recruit_character = GUA_miguel_garcia_granados
+recruit_character = GUA_jose_ezuira_abel
+recruit_character = GUA_m_ydigaras_fuentes
+recruit_character = GUA_federico_ponce_vaides
+recruit_character = GUA_manuel_orellana
+recruit_character = GUA_francisco_javier_arana
+recruit_character = GUA_juan_arevalo_bermejo
+recruit_character = GUA_eduardo_villagran_ariza
+recruit_character = GUA_manuel_arroyo
 
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
-set_convoys = 10
+set_convoys = 5
 
 1939.1.1 = {
 
@@ -51,16 +57,18 @@ set_convoys = 10
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "HYD_1939"
+	oob = "GUA_1939"
 	set_technology = {
 		infantry_weapons1 = 1
 
 		#doctrines
 		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
 		fleet_in_being = 1
 		battlefleet_concentration = 1
+		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -82,11 +90,10 @@ set_convoys = 10
 
 set_politics = {
 	ruling_party = patdem
-	last_election = "1932.2.14"
+	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	patdem = 30
+	patdem = 100
 }
