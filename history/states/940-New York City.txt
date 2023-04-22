@@ -5,7 +5,9 @@ state={
 	history ={
 		owner = USA
 		buildings = {
-			infastructure = 5
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 6
 		}
 		add_core_of = USA
 	}

@@ -1,0 +1,17 @@
+state={
+	id=942
+	name="STATE_942"
+
+	history ={
+		owner = QIN
+		add_core_of = QIN
+	}
+
+	provinces={
+		1084 7160 7189 9987 11962 12093 
+	}
+	manpower=606366
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

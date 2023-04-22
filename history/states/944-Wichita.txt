@@ -1,0 +1,24 @@
+state={
+	id=944
+	name="STATE_944"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = USA
+		add_core_of = USA
+		
+		victory_points = {
+		4740 3 
+		}
+	}
+
+	provinces={
+		1352 4586 4740 4811 7834 7892 9802 10340 
+	}
+	manpower=544631
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

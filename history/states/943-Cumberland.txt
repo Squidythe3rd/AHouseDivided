@@ -1,0 +1,26 @@
+state={
+	id=943
+	name="STATE_943"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+
+		add_core_of = USA
+		add_dynamic_modifier = {
+			modifier = "Southern Sympathies"
+		}
+	}
+
+	provinces={
+		1582 4988 7547 9727 12568 12637 
+	}
+	manpower= 1647456
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

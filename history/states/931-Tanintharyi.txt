@@ -1,24 +1,24 @@
 
 state={
-	id=923
-	name="STATE_923"
+	id=931
+	name="STATE_931"
 
 	history={
-		owner = GER
+		owner = SIA
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 
 		}
-		add_core_of = BEL
-		add_core_of = GER
+		add_core_of = SIA
+		add_core_of = BRM
 
 	}
 
 	provinces={
-		3488 9418 11407 
+		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
 	}
-	manpower=338130
+	manpower=1408400
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

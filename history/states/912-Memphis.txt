@@ -1,0 +1,27 @@
+state={
+	id=912
+	name="STATE_912"
+
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = CSA
+		victory_points = {
+			7797 20 
+		}
+
+	}
+
+	provinces={
+		1987 7615 7797 10615 
+	}
+	manpower=253143
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=2.000
+}

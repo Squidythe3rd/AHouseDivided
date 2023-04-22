@@ -1,0 +1,27 @@
+state={
+	id=913
+	name="STATE_913"
+	state_category = metropolis
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			industrial_complex = 4
+			infrastructure = 8
+			air_base = 3
+			dockyard = 4
+		}
+		victory_points = {
+			9814 30
+		}
+		victory_points = {
+			1562 15
+		}
+	}
+	provinces={
+		1562 7517 9814 11757 
+	}
+	manpower=1238048
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

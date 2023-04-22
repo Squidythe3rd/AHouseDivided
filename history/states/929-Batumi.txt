@@ -1,0 +1,31 @@
+
+state={
+	id=929
+	name="STATE_929"
+
+	history={
+		owner = TUR
+		victory_points = {
+			3653 15 
+		}
+		buildings = {
+			infrastructure = 2
+			3653 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = TUR
+		add_core_of = GEO
+
+	}
+
+	provinces={
+		789 3653 6991 7454 10403 10472 11753 
+	}
+	manpower=151587
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
