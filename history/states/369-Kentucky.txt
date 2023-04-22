@@ -2,28 +2,28 @@
 state={
 	id=369
 	name="STATE_369"
-	manpower = 2614588
-	
-	state_category = city
+
+	state_category=city
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 5
-			industrial_complex = 3
-			air_base = 4
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+
 		}
 		add_core_of = USA
 		add_dynamic_modifier = { modifier = "Southern Sympathies" }
 		victory_points = {
 			6696 1 
 		}
-
 	}
 
 	provinces={
-		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+		1445 4402 4452 6696 6974 10586 10727 12709 
 	}
-
-	local_supplies=0.0 
+	manpower=2614588
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 }

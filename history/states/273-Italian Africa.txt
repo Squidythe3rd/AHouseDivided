@@ -1,0 +1,24 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1060 1140 4962 5004 10754 10785 10884 11951 12022 12082 12866 
+	}
+	manpower=38370
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+	local_supplies=0.000
+}

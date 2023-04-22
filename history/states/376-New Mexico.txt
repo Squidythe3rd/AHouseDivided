@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = DES
+		owner = CSA
 
 		add_dynamic_modifier = { modifier = "Local Navajo Autonomy" }
 
@@ -17,9 +17,9 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = DES
+		add_core_of = CSA
 
-		set_demilitarized_zone = yes
+		set_demilitarized_zone = no
 
 		victory_points = {
 			4975 1 
