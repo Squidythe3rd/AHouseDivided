@@ -4,9 +4,10 @@ state={
 	name="STATE_741"
 
 	history={
+		add_core_of = IDC
 		add_core_of = CAM
-		add_claim_of = SIA
-		owner = SIA
+		add_claim_by = SIA
+		owner = IDC
 		victory_points = {
 			7376 1 
 		}

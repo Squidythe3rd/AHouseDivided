@@ -7,6 +7,9 @@ state={
 		victory_points = {
 			6940 3 
 		}
+		victory_points = {
+			6953 3 
+		}
 		owner = SER
 		buildings = {
 			infrastructure = 1
@@ -18,8 +21,9 @@ state={
 	}
 
 	provinces={
-		6940 9849 9874 9890 
+		6940 6953
 	}
+
 	manpower=616000
 	buildings_max_level_factor=1.000
 	state_category=pastoral

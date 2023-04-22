@@ -8,11 +8,12 @@ state = {
 		victory_points = {
 			6626 3
 		}
-		owner = AUS
-		add_core_of = ITA
+		owner = GER
+		add_claim_by = ITA
 		add_core_of = AUS
 		add_core_of = SLV
 		add_core_of = LBV
+		add_core_of = GER
 		buildings = {
 			infrastructure = 1
 			dockyard = 1
@@ -26,7 +27,7 @@ state = {
 	}
 
 	provinces = {
-		599 6626 11595 
+		599 6626 9613 11595 
 	}
 	manpower = 1038159 # was 1063159 before Istria was merged with Fiume (~25k pop added to new Istria state (Fiume + Pola)
 	buildings_max_level_factor = 1.000

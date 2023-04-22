@@ -27,8 +27,7 @@ state={
 			}
 		}
 		add_core_of = TUR
-		}
 	}
 
-	local_supplies=8.0 
+	local_supplies=1.0
 }
