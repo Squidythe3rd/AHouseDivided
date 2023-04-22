@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "select_date_1936_eastern_hemisphere"
+		texturefile = "gfx/interface/select_date_1936_eastern_hemisphere.dds"
+	}
+	
+	spriteType = {
+		name = "select_date_1936_western_hemisphere"
+		texturefile = "gfx/interface/select_date_1936_western_hemisphere.dds"
+	}
+}
