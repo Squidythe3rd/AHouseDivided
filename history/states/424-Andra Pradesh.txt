@@ -7,11 +7,8 @@ state={
 	
 
 	history={
-		owner = DRV
+		owner = RAJ
 		add_core_of = DRV
-		add_claim_by = IND
-		add_claim_by = RAJ
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
