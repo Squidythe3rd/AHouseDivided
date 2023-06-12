@@ -31,7 +31,7 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_WESTERN_HEMISPHERE_DESC"
 		}
 
 

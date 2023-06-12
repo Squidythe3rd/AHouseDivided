@@ -1,0 +1,33 @@
+
+state={
+	id=972
+	name="STATE_972"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1 
+		}
+		add_claim_by = IRQ
+		add_core_of = KUR
+
+	}
+
+	provinces={
+		3916 5014 6826 8123 10793 10811 
+	}
+	manpower=492809
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

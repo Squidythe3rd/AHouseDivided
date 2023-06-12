@@ -1,0 +1,30 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Fascist Takeover CSA
+news_event = {
+	id = news.confederacy2
+	title = news.news.confederacy2.t
+	desc = news.news.confederacy2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.confederacy2.a
+		trigger = {
+			NOT = {
+				TAG = CSA
+			}
+		}
+	}
+	option = {
+		name = news.confederacy2.b
+		trigger = { TAG = CSA }
+	}
+}

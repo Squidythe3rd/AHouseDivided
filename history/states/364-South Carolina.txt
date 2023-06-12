@@ -10,13 +10,18 @@ state={
 		owner = CSA
 		buildings = {
 			infrastructure = 4 #was: 5
-			industrial_complex = 5
+			industrial_complex = 3
+			arms_factory = 2
 			7202 = {
 				naval_base = 4
 
 			}
 		}
+
+		add_dynamic_modifier = { modifier = "Predominant Black Population" }
+
 		add_core_of = CSA
+		add_core_of = NFK
 		victory_points = {
 			7202 20 
 		}

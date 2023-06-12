@@ -11,11 +11,12 @@ state={
 		owner = CSA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 
 		}
 		add_core_of = CSA
+		add_core_of = SEQ
 		victory_points = {
 			1806 1 
 		}

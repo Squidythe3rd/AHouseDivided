@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_report_event_CSA_congress"
+		texturefile = "gfx/event_pictures/report_event_CSA_congress.dds"
+	}
+
+	spriteType = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}

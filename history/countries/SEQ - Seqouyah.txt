@@ -1,0 +1,92 @@
+﻿capital = 378
+
+oob = "SEQ_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = SEQ_ricardo_jiménez_oreamuno
+recruit_character = SEQ_josé_maría_barahona
+recruit_character = SEQ_lisandro_barillas
+recruit_character = SEQ_jorge_peralta
+recruit_character = SEQ_baptista_e_gutierrez
+recruit_character = SEQ_hugo_montes_ramirez
+recruit_character = SEQ_roberto_juarez_camposino
+recruit_character = SEQ_guillermo_macho_nunez
+recruit_character = SEQ_luis_fernandez_rodriguez
+recruit_character = SEQ_jorge_volio_jimenez
+recruit_character = SEQ_manuel_mora_valverde
+recruit_character = SEQ_carlos_uribe_alpoveda
+recruit_character = SEQ_felipe_abreu_castro
+recruit_character = SEQ_francisco_rosendo_arguello
+recruit_character = SEQ_tobias_picado_cortes
+recruit_character = SEQ_oscar_padilla_sellean
+recruit_character = SEQ_hugo_siedler_mendoza
+recruit_character = SEQ_otto_cortes_fernandez
+recruit_character = SEQ_jose_figueres_ferrer
+recruit_character = SEQ_roberto_brenes_mesen
+recruit_character = SEQ_julio_aSEQta_garcia
+recruit_character = SEQ_chico_orlich_bolmarich
+
+
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "SEQ_1939"
+	set_technology = {
+		infantry_weapons1 = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = autocrat
+	last_election = "1932.2.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	autocrat = 100
+}

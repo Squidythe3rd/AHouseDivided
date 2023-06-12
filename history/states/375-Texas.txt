@@ -11,7 +11,7 @@ state={
 		owner = CSA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 9
+			industrial_complex = 5
 			air_base = 3
 			10337 = {
 				naval_base = 3
@@ -24,6 +24,7 @@ state={
 
 		}
 		add_core_of = CSA
+		add_core_of = TEX
 		victory_points = {
 			10337 25 
 		}

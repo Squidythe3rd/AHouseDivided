@@ -48,6 +48,29 @@ leader_traits = {
 		}
 	}
 
+	bananas  = {
+		random = no
+		trade_opinion_factor = 0.25
+		drift_defence_factor = 0.5
+		trade_laws_cost_factor = -0.25
+		economy_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	csa_old_guard  = {
+		random = no
+		political_advisor_cost_factor = -0.05
+		trade_laws_cost_factor = -0.05
+		economy_cost_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	warrior_code = {
 		random = no
 		ai_call_ally_desire_factor = -40

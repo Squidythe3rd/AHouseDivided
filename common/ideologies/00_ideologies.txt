@@ -67,7 +67,7 @@ ideologies = {
 			"FACTION_NAME_SOCIALIST_5"
 		}
 
-		color = { 200 0 0 }
+		color = { 255 0 0 }
 
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -116,7 +116,7 @@ ideologies = {
 			"FACTION_NAME_SOCDEM_6"
 		}
 
-		color = { 225 0 120 }
+		color = { 200 0 105 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -173,7 +173,7 @@ ideologies = {
 			"FACTION_NAME_LIBDEM_6"
 		}
 
-		color = { 0 125 225 }
+		color = { 255 195 0 }
 
 		rules = {
 			can_create_collaboration_government = no
@@ -378,6 +378,9 @@ ideologies = {
 		types = {
 
 			fascism = {
+			}
+
+			corporatism = {
 			}
 
 			klanism = {

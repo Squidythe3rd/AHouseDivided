@@ -13,5 +13,9 @@ spriteTypes = {
 		name = "GFX_autonomy_dependent_state_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_dependent_state_icon.png"
 	}
+	spriteType = {
+		name = "GFX_autonomy_banana_republic_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_banana_republic_icon.png"
+	}
 }
 

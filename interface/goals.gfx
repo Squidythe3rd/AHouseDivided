@@ -8,13 +8,13 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_CSA_addressing_crisis"
-	texturefile = "gfx/interface/goals/CSA_addressing_crisis.dds"			
+	name = "GFX_CSA_fading_father"
+	texturefile = "gfx/interface/goals/CSA_fading_father.dds"			
 	}	
 
 	SpriteType = {
-	name = "GFX_CSA_start_investigation"
-	texturefile = "gfx/interface/goals/CSA_start_investigation.dds"			
+	name = "GFX_CSA_prepare_successor"
+	texturefile = "gfx/interface/goals/CSA_prepare_successor.dds"			
 	}	
 
 	SpriteType = {

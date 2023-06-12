@@ -207,11 +207,6 @@ recruit_character = ENG_thomas_moore
 		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_military_government
-		freedom_level = 0.0
-	}
-	set_autonomy = {
 		target = BWA
 		autonomous_state = autonomy_colonial_government
 		freedom_level = 0.2

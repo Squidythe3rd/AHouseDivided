@@ -42,8 +42,8 @@ ideas = {
 				fascist_acceptance = 20
 			}
 		}
-		slavery_legacy = {
-			picture = csa_slavery_legacy
+		csa_unsplendid_isolation = {
+			picture = csa_unsplendid_isolation
 			
 			allowed = {
 				always = no
@@ -56,9 +56,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_cost = 0.15
 				stability_factor = -0.05
-				conscription_factor = -0.25
+				war_support_factor = -0.25
 			}
 		}
 		csa_huey = {
@@ -93,12 +92,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_cost = 1
-				consumer_goods_factor = 0.5
-				conscription_factor = -0.5
-				socdem_drift = 0.05
-				libdem_drift = 0.05
-				fascist_drift = 0.25
+				drift_defence_factor = -0.25
+				communist_drift = 0.01
+				socialist_drift = 0.01
+				socdem_drift = 0.03
+				libdem_drift = 0.03
+				fascist_drift = 0.15
 			}
 		}
 }

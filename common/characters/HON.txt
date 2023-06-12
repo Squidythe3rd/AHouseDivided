@@ -1,0 +1,17 @@
+characters={
+	HON_Zemurray={
+		name= "Samuel Zemurray"
+		portraits={
+			civilian={
+				large=GFX_portrait_HON_Zemurray
+			}
+		}
+		country_leader={
+			ideology=corporatism
+			traits = { bananas }
+			desc = "politics_Zemurray_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

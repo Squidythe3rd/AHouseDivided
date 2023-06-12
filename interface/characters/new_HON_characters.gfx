@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	
+	spriteType = {
+		name = "GFX_portrait_HON_Zemurray"
+		texturefile = "gfx/leaders/HON/Portrait_HON_Zemurray.dds"
+	}
+}

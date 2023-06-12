@@ -185,7 +185,7 @@ adjacency_rule =
 	}
 		
 	icon = 7617
-	offset = { -75 0 45 }
+	offset = { -10 0 5 }
 }
 
 #Marmara Strait

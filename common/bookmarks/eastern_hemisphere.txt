@@ -1,22 +1,22 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "EASTERN_HEMISPHERE_NAME"
+		desc = "EASTERN_HEMISPHERE_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
 
 		"GER"={
-			history = "GER_GATHERING_STORM_DESC"
+			history = "GER_EASTERN_HEMISPHERE_DESC"
 			ideology = progressivism
 		}
 		"BRA"={
-			history = "BRA_GATHERING_STORM_DESC"
+			history = "BRA_EASTERN_HEMISPHERE_DESC"
 			ideology = paternalism			
 		}
 		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "USA_EASTERN_HEMISPHERE_DESC"
 			ideology = democratic
 			ideas = {
 				home_of_the_free
@@ -30,15 +30,15 @@ bookmarks = {
 			}
 		}
 		"CSA"={
-			history = "CSA_GATHERING_STORM_DESC"
+			history = "CSA_EASTERN_HEMISPHERE_DESC"
 			ideology = paternalism
 		}
 		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
+			history = "SOV_EASTERN_HEMISPHERE_DESC"
 			ideology = communism
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "ENG_EASTERN_HEMISPHERE_DESC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
@@ -53,7 +53,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "FRA_EASTERN_HEMISPHERE_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
@@ -69,7 +69,7 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_EASTERN_HEMISPHERE_DESC"
 		}
 
 

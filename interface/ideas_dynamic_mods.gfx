@@ -36,5 +36,10 @@ spriteTypes = {
 		name = "GFX_idea_DES_Navajo"
 		texturefile = "gfx/interface/ideas/DES_Navajo.png"
 	}
+
+	spriteType = {
+		name = "GFX_idea_CSA_Afrikan"
+		texturefile = "gfx/interface/ideas/CSA_Afrikan.png"
+	}
 }
 

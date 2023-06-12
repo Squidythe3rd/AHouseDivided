@@ -19,8 +19,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_csa_slavery_legacy"
-		texturefile = "gfx/interface/ideas/csa_slavery_legacy.png"
+		name = "GFX_idea_csa_unsplendid_isolation"
+		texturefile = "gfx/interface/ideas/csa_unsplendid_isolation.png"
 	}
 
 	spriteType = {

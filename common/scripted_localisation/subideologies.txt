@@ -1,0 +1,172 @@
+defined_text = { 
+	name = GetSubIdeology
+
+	text = {
+		trigger = {
+			has_government = communist
+		}
+		localization_key = "[GetSubIdeologyCom]"
+	}
+	text = {
+		trigger = {
+			has_government = socialist
+		}
+		localization_key = "[GetSubIdeologySoc]"
+	}
+	text = {
+		trigger = {
+			has_government = socdem
+		}
+		localization_key = "[GetSubIdeologySocdem]"
+	}
+	text = {
+		trigger = {
+			has_government = libdem
+		}
+		localization_key = "[GetSubIdeologyLibdem]"
+	}
+	text = {
+		trigger = {
+			has_government = condem
+		}
+		localization_key = "[GetSubIdeologyCondem]"
+	}
+	text = {
+		trigger = {
+			has_government = patdem
+		}
+		localization_key = "[GetSubIdeologyPatdem]"
+	}
+	text = {
+		trigger = {
+			has_government = autocrat
+		}
+		localization_key = "[GetSubIdeologyAutocrat]"
+	}
+	text = {
+		trigger = {
+			has_government = fascist
+		}
+		localization_key = "[GetSubIdeologyFas]"
+	}
+	
+}
+defined_text = {
+	name = GetSubIdeologyCom
+	text = {
+		trigger = {
+			has_country_leader_ideology = communism
+		}
+		localization_key = communism
+		
+	}
+}
+defined_text = {
+	name = GetSubIdeologySoc
+	text = {
+		trigger = {
+			has_country_leader_ideology = socialism
+		}
+		localization_key = socialism
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = demsoc
+		}
+		localization_key = demsoc
+	}
+}
+defined_text = {
+	name = GetSubIdeologySocdem
+	text = {
+		trigger = {
+			has_country_leader_ideology = progressivism
+		}
+		localization_key = progressivism
+		
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLibdem
+	text = {
+		trigger = {
+			has_country_leader_ideology = liberalism
+		}
+		localization_key = liberalism
+		
+	}
+
+}
+defined_text = {
+	name = GetSubIdeologyCondem
+	text = {
+		trigger = {
+			has_country_leader_ideology = conservatism
+		}
+		localization_key = conservatism
+		
+	}
+
+}
+defined_text = {
+	name = GetSubIdeologyPatdem
+	text = {
+		trigger = {
+			has_country_leader_ideology = paternalism
+		}
+		localization_key = paternalism
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = oligarchy
+		}
+		localization_key = oligarchy
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = populistsocdem
+		}
+		localization_key = populistsocdem
+		
+	}
+
+}
+defined_text = {
+	name = GetSubIdeologyAutocrat
+	text = {
+		trigger = {
+			has_country_leader_ideology = autocracy
+		}
+		localization_key = autocracy
+		
+	}
+
+}
+defined_text = {
+	name = GetSubIdeologyFas
+	text = {
+		trigger = {
+			has_country_leader_ideology = fascism
+		}
+		localization_key = fascism
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = corporatism
+		}
+		localization_key = corporatism
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = klanism
+		}
+		localization_key = klanism
+		
+	}
+
+}

@@ -505,6 +505,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_corporatism"
+		texturefile = "gfx/interface/ideologies/corporatism.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_klanism"
 		texturefile = "gfx/interface/ideologies/klanism.dds"
 	}

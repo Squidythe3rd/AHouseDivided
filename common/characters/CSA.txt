@@ -8,6 +8,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = oligarchy
+			traits = { csa_old_guard }
 			desc = "politics_McAdoo_desc"
 			expire = "1950.1.1.1"
 			id = -1
@@ -69,17 +70,17 @@ characters = {
 			id = -1
 		}
 	}
-	CSA_Hiram_Evans = {
-		name = "Hiram Wesley Evans" 
+	CSA_William_Simmons = {
+		name = "William Joseph Simmons" 
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_CSA_Hiram_Evans"
+				large = "GFX_portrait_CSA_William_Simmons"
 			}
 		}
 		country_leader = {
 			ideology = klanism
 			traits = { wizard }
-			desc = "politics_Hiram_desc"
+			desc = "politics_Simmons_desc"
 			expire = "1950.1.1.1"
 			id = -1
 		}

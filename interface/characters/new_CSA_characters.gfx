@@ -10,11 +10,15 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CSA/Portrait_CSA_Richard_Russell.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_CSA_Hiram_Evans"
-		texturefile = "gfx/leaders/CSA/Portrait_CSA_Hiram_Evans.dds"
+		name = "GFX_portrait_CSA_William_Simmons"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_William_Simmons.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_CSA_Huey_Long"
 		texturefile = "gfx/leaders/CSA/Portrait_CSA_Huey_Long.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CSA_Patton"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Patton.dds"
 	}
 }

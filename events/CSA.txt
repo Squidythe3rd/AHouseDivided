@@ -30,23 +30,161 @@ country_event = {
 	}
 
 country_event = {
-	id = Confederacy.11
-	title = Confederacy.11.t
-	desc = Confederacy.11.d
+	id = Confederacy.3
+	title = Confederacy.3.t
+	desc = Confederacy.3.d
 	picture = GFX_report_event_CSA_mcadoo_speech
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = Confederacy.11.a
+		name = Confederacy.3.a
 		ai_chance = { factor = 90 }
-		retire_character = CSA_McAdoo
 		set_politics = {
 			ruling_party = condem
+			elections_allowed = yes
+		}
+		add_stability = 0.05
+		add_popularity = { ideology = condem popularity = 0.05 }
+		add_popularity = { ideology = patdem popularity = -0.05 }
+		retire_character = CSA_McAdoo
+		}
+	}
+
+country_event = {
+	id = Confederacy.4
+	title = Confederacy.4.t
+	desc = Confederacy.4.d
+	picture = GFX_report_event_CSA_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.4.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+			country_event = {
+				id = Confederacy.5
+				days = 5
+			}
+		}
+		add_stability = -0.1
+		add_popularity = { ideology = communist popularity = 0.025 }
+		add_popularity = { ideology = socialist popularity = 0.05 }
+		}
+	}
+
+country_event = {
+	id = Confederacy.5
+	title = Confederacy.5.t
+	desc = Confederacy.5.d
+	picture = GFX_report_event_CSA_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.5.a
+		ai_chance = { factor = 90 }
+		country_event = {
+			id = Confederacy.6
+			hours = 2
+		}
+		}
+	}
+
+country_event = {
+	id = Confederacy.6
+	title = Confederacy.6.t
+	desc = Confederacy.6.d
+	picture = GFX_report_event_CSA_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.6.a ###Fascist Takeover###
+		ai_chance = { factor = 70 }
+		country_event = {
+			id = Confederacy.7 
+			days = 1
+		}
+		set_politics = {
+			ruling_party = fascist
 			elections_allowed = no
 		}
-		add_stability = -0.5
-		add_popularity = { ideology = patdem popularity = -0.1 }
+		add_popularity = { ideology = fascist popularity = 0.1 }
+		}
+	option = {
+		name = Confederacy.6.b ###Military Intervention###
+		ai_chance = { factor = 30 }
+		set_politics = {
+			ruling_party = autocrat
+			elections_allowed = no
+		}
+		KGC = {
+			transfer_state = 990
+			declare_war_on = { type = annex_everything    target = CSA }
+		}
+		set_global_flag = CSA_richmond_rebellion
+		}
+	}
+
+country_event = {
+	id = Confederacy.7
+	title = Confederacy.7.t
+	desc = Confederacy.7.d
+	picture = GFX_report_event_CSA_congress
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.7.a
+		ai_chance = { factor = 90 }
+		country_event = {
+			id = Confederacy.6
+			days = 1
+		}
+		complete_national_focus = CSA_birth_nation
+		set_global_flag = CSA_birth_nation
+		hidden_effect = {
+			news_event = { day = 1 id = news.confederacy2 }
+		}
+		}
+	}
+
+country_event = {
+	id = Confederacy.kgc1
+	title = Confederacy.kgc1.t
+	desc = Confederacy.kgc1.d
+	picture = GFX_report_event_CSA_oval_office
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Confederacy.kgc1.a
+		ai_chance = { factor = 90 }
+		}
+	}
+
+country_event = {
+	id = Confederacy.intervention1
+	title = Confederacy.intervention1.t
+	desc = Confederacy.intervention1.d
+	picture = GFX_report_event_CSA_congress
+	
+	trigger = {
+		CSA = {
+			has_government = autocrat
+			owns_state = 990
+			has_global_flag = CSA_richmond_rebellion
+		}
+	}
+	
+	option = {
+		name = Confederacy.intervention1.a
+		ai_chance = { factor = 90 }
+		add_popularity = { ideology = autocrat popularity = 0.1 }
+		add_popularity = { ideology = fascist popularity = -0.25 }
+		clr_global_flag = CSA_richmond_rebellion
 		}
 	}
 }

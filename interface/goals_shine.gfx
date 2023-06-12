@@ -35,11 +35,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_CSA_addressing_crisis_shine"
-		texturefile = "gfx/interface/goals/CSA_addressing_crisis.dds"
+		name = "GFX_CSA_fading_father_shine"
+		texturefile = "gfx/interface/goals/CSA_fading_father.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CSA_addressing_crisis.dds"
+			animationmaskfile = "gfx/interface/goals/CSA_fading_father.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -52,7 +52,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CSA_addressing_crisis.dds"
+			animationmaskfile = "gfx/interface/goals/CSA_fading_father.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -67,11 +67,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_CSA_start_investigation_shine"
-		texturefile = "gfx/interface/goals/CSA_start_investigation.dds"
+		name = "GFX_CSA_prepare_successor_shine"
+		texturefile = "gfx/interface/goals/CSA_prepare_successor.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CSA_start_investigation.dds"
+			animationmaskfile = "gfx/interface/goals/CSA_prepare_successor.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -84,7 +84,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/CSA_start_investigation.dds"
+			animationmaskfile = "gfx/interface/goals/CSA_prepare_successor.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

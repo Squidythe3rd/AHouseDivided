@@ -1,0 +1,7 @@
+"Predominant Black Population" = {
+	icon = GFX_idea_CSA_Afrikan
+	enable = { is_controlled_by = CSA }
+	state_resources_factor = -0.50
+	recruitable_population_factor = -0.50
+}
+

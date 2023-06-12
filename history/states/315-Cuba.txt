@@ -7,15 +7,15 @@ state= {
 		chromium=90 # was: 160
 	}
 	
-	state_category = metropolis
+	state_category = large_town
 
 	history= {
 		owner = CSA
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 3
+			industrial_complex = 1
+			dockyard = 2
 			air_base = 1
 			7622 = {
 				naval_base = 4

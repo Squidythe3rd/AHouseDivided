@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = USC_Douglas_MacArthur
+recruit_character = USC_daniel_macarthur
 
 
 set_country_flag = monroe_doctrine

@@ -3,11 +3,13 @@ characters = {
 		name = "David MacArthur" 
 		portraits = {
 			civilian = {
-				large = GFX_portrait_USC_MacArthur
+				large=GFX_portrait_USC_macArthur
 			}
 		}
 		country_leader = {
 			ideology = autocracy
+			traits = {  }
+			desc = "politics_MacArthur_desc"
 			expire = "1950.1.1.1"
 			id = -1
 		}

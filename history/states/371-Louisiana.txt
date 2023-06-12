@@ -22,8 +22,14 @@ state={
 			}
 		}
 		add_core_of = CSA
+		add_core_of = LOU
+		add_claim_by = NFK
 		victory_points = {
-			4507 5 
+			12401 5 
+		}
+
+		victory_points = {
+			12313 1 
 		}
 
 	}

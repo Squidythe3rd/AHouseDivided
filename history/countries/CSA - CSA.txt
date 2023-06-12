@@ -1,10 +1,10 @@
-﻿capital = 362
+﻿capital = 990
 
 oob = "CSA_1936"
 
-set_research_slots = 3
-set_stability = 0.75
-set_war_support = 0
+set_research_slots = 4
+set_stability = 0.53
+set_war_support = 0.46
 set_variable = { var = senators_support value = 48 }
 set_variable = { var = senators_total value = 96 }
 set_variable = { var = representatives_support value = 218 }
@@ -77,7 +77,7 @@ if = {
 recruit_character = CSA_McAdoo
 recruit_character = CSA_Huey_Long_P
 recruit_character = CSA_Bibb_Graves
-recruit_character = CSA_Hiram_Evans
+recruit_character = CSA_William_Simmons
 recruit_character = CSA_Patton
 recruit_character = CSA_Richard_Russell
 
@@ -90,31 +90,24 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	socdem = 17
+	communist = 3
+	socialist = 12
+	socdem = 8
 	libdem = 6
 	condem = 10
 	patdem = 21
 	autocrat = 12
-	fascist = 34
+	fascist = 28
 }
 
 add_ideas = {
-	slavery_legacy
 	csa_great_depression
+	csa_unsplendid_isolation
 }
 
 set_autonomy = {
 	target = MEX
 	autonomous_state = autonomy_dependent_state
-}
-set_autonomy = {
-	target = NIC
-	autonomous_state = autonomy_dependent_state
-}
-set_autonomy = {
-	target = HON
-	autonomous_state = autonomy_dependent_state
-	freedom_level = 0.35
 }
 set_autonomy = {
 	target = ELS
@@ -126,6 +119,14 @@ set_autonomy = {
 	autonomous_state = autonomy_dependent_state
 	freedom_level = 0.4
 }
+set_autonomy = {
+	target = GUA
+	autonomous_state = autonomy_dependent_state
+	freedom_level = 0.4
+}
+
+give_guarantee = CAL
+give_guarantee = DES
 
 1939.1.1 = {
 	set_politics = {

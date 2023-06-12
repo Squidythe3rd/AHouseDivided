@@ -6,7 +6,8 @@ state={
 		owner = CSA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 5
 			7552 = {
 				naval_base = 7
@@ -14,7 +15,12 @@ state={
 			}
 
 		}
+
+		add_dynamic_modifier = { modifier = "Predominant Black Population" }
+
 		add_core_of = CSA
+		add_core_of = LOU
+		add_core_of = NFK
 		victory_points = {
 			7552 25 
 		}
@@ -29,6 +35,6 @@ state={
 	}
 	manpower=376971
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 	local_supplies=6.000
 }
