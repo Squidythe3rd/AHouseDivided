@@ -1,0 +1,28 @@
+state={
+	id=969
+	name="STATE_969"
+	provinces={
+		652 789 4583 6991 10472 12376 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_claim_by = ARM
+		victory_points = {
+			3653 15 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			12376 1 
+		}
+
+	}
+
+	manpower=176587
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

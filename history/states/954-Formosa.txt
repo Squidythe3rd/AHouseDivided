@@ -1,0 +1,27 @@
+state={
+	id=954
+	name="STATE_954"
+	provinces={
+		10944 12922 12943 
+	}
+
+	resources={
+		tungsten=25.000
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ARG
+		add_claim_by = BOL
+
+	}
+
+	manpower=88030
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

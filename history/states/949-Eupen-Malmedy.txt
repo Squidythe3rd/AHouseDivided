@@ -1,0 +1,16 @@
+state={
+	id=949
+	name="STATE_949"
+	provinces={
+		13263 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+	}
+	
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

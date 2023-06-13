@@ -963,8 +963,8 @@ BRM = {
 	color_ui = rgb { 174 12 12 }
 }
 IDC = {
-	color = rgb { 183 164 37 }
-	color_ui = rgb { 183 164 37 }
+	color = rgb { 26 75 148 }
+	color_ui = rgb { 26 75 148 }
 }
 MIS = {
 	color = rgb { 92 24 16 }
@@ -1055,6 +1055,18 @@ SIE = {
 	color_ui = rgb { 174 12 12 }
 }
 GAM = {
+	color = rgb { 174 12 12 }
+	color_ui = rgb { 174 12 12 }
+}
+WAS = {
+	color = rgb { 174 12 12 }
+	color_ui = rgb { 174 12 12 }
+}
+EAP = {
+	color = rgb { 174 12 12 }
+	color_ui = rgb { 174 12 12 }
+}
+CAF = {
 	color = rgb { 174 12 12 }
 	color_ui = rgb { 174 12 12 }
 }

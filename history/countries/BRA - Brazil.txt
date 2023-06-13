@@ -168,6 +168,17 @@ set_popularities = {
 	fascist = 4
 }
 
+create_country_leader = {
+	
+	name = "Luís I"
+	desc = "The leader of the Empire of Brazil."
+	picture = "gfx/leaders/BRA/Portrait_BRA_Luis.dds"
+	expire = "1965.1.1"
+	ideology = paternalism
+	traits = {
+		#
+	}
+}
 
 set_convoys = 40
 

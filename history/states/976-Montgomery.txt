@@ -1,0 +1,32 @@
+
+state={
+	id=976
+	name="STATE_976"
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = NFK
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+		add_dynamic_modifier = { modifier = "Predominant Black Population" }
+
+		victory_points = {
+			12735 15 
+		}
+
+	}
+
+	provinces={
+		492 860 1587 4622 4756 7422 11509 12735 
+	}
+	manpower=905345
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

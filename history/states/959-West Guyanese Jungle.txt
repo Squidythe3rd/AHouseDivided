@@ -1,0 +1,22 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		12828 
+	}
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = GYA
+
+	}
+
+	impassable = yes
+	manpower=3267
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

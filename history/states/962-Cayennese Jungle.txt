@@ -1,0 +1,24 @@
+state={
+	id=962
+	name="STATE_962"
+	provinces={
+		4934 
+	}
+	history={
+		owner = BRA
+		add_dynamic_modifier = {
+			modifier = Local French Autonomy
+
+		}
+		add_core_of = CAY
+		add_claim_by = FRA
+		set_demilitarized_zone = yes
+
+	}
+
+	manpower=2678
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+	local_supplies=0.000
+}

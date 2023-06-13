@@ -1,0 +1,24 @@
+state={
+	id=986
+	name="STATE_986"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = NIC
+		add_core_of = NIC
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+	}
+
+	provinces={
+		1095 5095 10728 12849 
+	}
+	manpower=237152
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

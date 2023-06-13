@@ -159,13 +159,13 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = autocrat
+	ruling_party = socialist
 	last_election = "1932.10.30"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
-	autocrat = 100
+	socialist = 100
 }
 
 ### VARIANTS ###

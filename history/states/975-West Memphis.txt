@@ -1,0 +1,28 @@
+state={
+	id=975
+	name="STATE_975"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+		add_dynamic_modifier = { modifier = "Predominant Black Population" }
+
+		add_core_of = CSA
+		add_core_of = NFK
+	}
+	provinces={
+		1646 10355 
+	}
+	manpower=256766
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

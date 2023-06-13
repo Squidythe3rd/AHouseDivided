@@ -1234,9 +1234,21 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 67
-	socialist = 22
-	socdem = 11
+	communist = 77
+	socialist = 17
+	socdem = 6
+}
+
+create_country_leader = {
+	
+	name = "Alexei Rykov"
+	desc = "The leader of the Soviet Union."
+	picture = "gfx/leaders/SOV/Portrait_SOV_Alexei_Rykov.dds"
+	expire = "1965.1.1"
+	ideology = communism
+	traits = {
+		#
+	}
 }
 
 if = {
