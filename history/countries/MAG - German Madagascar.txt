@@ -68,28 +68,12 @@ recruit_character = MAG_democratic_guy
 	}
 }
 
-GER = {
-	set_autonomy = {
-		target = MAG
-		autonomy_state = colonial_government
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = patdem
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
-}
-
-create_country_leader = {
-	
-	name = "Tshekedi Khama"
-	picture = GFX_portrait_Tshekedi_Khama
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
+	patdem = 100
 }

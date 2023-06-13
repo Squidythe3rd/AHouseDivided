@@ -329,10 +329,16 @@ set_convoys = 300
 
 	set_autonomy = {
 		target = TUN
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_colonial government
+		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = FWA
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = IDC
 		autonomous_state = autonomy_colonial_government
 		freedom_level = 0.35
 	}

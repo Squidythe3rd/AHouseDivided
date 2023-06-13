@@ -88,11 +88,12 @@ set_convoys = 5
 
 	set_autonomy = {
 		target = ANG
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = MZB
-		autonomous_state = autonomy_integrated_puppet
+		autonomous_state = autonomy_colonial_government
 		freedom_level = 0.35
 	}
 
