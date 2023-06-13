@@ -478,15 +478,6 @@
  VEE_GER_patdem_subject:0 "Republic of Venice"
  VEE_GER_patdem_subject_DEF:0 "the Republic of Venice"
 
- BWA_ENG_patdem_subject:0 "British West Africa"
- BWA_ENG_patdem_subject_DEF:0 "the British West Africa"
-
- BEA_ENG_patdem_subject:0 "British East Africa"
- BEA_ENG_patdem_subject_DEF:0 "the British East Africa"
-
- BSA_ENG_patdem_subject:0 "British South Africa"
- BSA_ENG_patdem_subject_DEF:0 "the British South Africa"
-
  MOR_FRA_patdem_subject:0 "Kingdom of Morocco"
  MOR_FRA_patdem_subject_DEF:0 "the Kingdom of Morocco"
 
@@ -513,6 +504,36 @@
 
  NZL_ENG_patdem_subject:0 "Dominion of New Zeland"
  NZL_ENG_patdem_subject_DEF:0 "the Dominion of New Zeland"
+
+ BOT_ENG_patdem_subject:0 "Bechuanaland Protectorate"
+ BOT_ENG_patdem_subject_DEF:0 "the Bechuanaland Protectorate"
+
+ ZIM_ENG_patdem_subject:0 "Southern Rhodesia"
+ ZIM_ENG_patdem_subject_DEF:0 "the Southern Rhodesia"
+
+ ZAM_ENG_patdem_subject:0 "Northern Rhodesia"
+ ZAM_ENG_patdem_subject_DEF:0 "the Northern Rhodesia"
+
+ MLW_ENG_patdem_subject:0 "Nyasaland Protectorate"
+ MLW_ENG_patdem_subject_DEF:0 "the Nyasaland Protectorate"
+
+ UGA_ENG_patdem_subject:0 "Uganda Protectorate"
+ UGA_ENG_patdem_subject_DEF:0 "the Uganda Protectorate"
+
+ KEN_ENG_patdem_subject:0 "Colony and Protectorate of Kenya"
+ KEN_ENG_patdem_subject_DEF:0 "the Colony and Protectorate of Kenya"
+
+ NGA_ENG_patdem_subject:0 "Colony and Protectorate of Nigeria"
+ NGA_ENG_patdem_subject_DEF:0 "the Colony and Protectorate of Nigeria"
+
+ GHA_ENG_patdem_subject:0 "Colony of the Gold Coast"
+ GHA_ENG_patdem_subject_DEF:0 "the Colony of the Gold Coast"
+
+ SIE_ENG_patdem_subject:0 "Colony and Protectorate of Sierra Leone"
+ SIE_ENG_patdem_subject_DEF:0 "the Colony and Protectorate of Sierra Leone"
+
+ GAM_ENG_patdem_subject:0 "Gambia Colony and Protectorate"
+ GAM_ENG_patdem_subject_DEF:0 "the Gambia Colony and Protectorate"
 
  NIC_communist:0 "Union of Nicaragua"
  NIC_communist_DEF:0 "the Union of Nicaragua"

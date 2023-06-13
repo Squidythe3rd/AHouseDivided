@@ -177,11 +177,6 @@ recruit_character = ENG_thomas_moore
 		freedom_level = 0.2
 	}
 	set_autonomy = {
-		target = BWA
-		autonomous_state = autonomy_colonial_government
-		freedom_level = 0.2
-	}
-	set_autonomy = {
 		target = ZIM
 		autonomous_state = autonomy_colonial_government
 		freedom_level = 0.2
@@ -202,22 +197,37 @@ recruit_character = ENG_thomas_moore
 		freedom_level = 0.2
 	}
 	set_autonomy = {
+		target = UGA
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = KEN
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = NGA
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = GHA
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = SIE
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = GAM
+		autonomous_state = autonomy_colonial_government
+		freedom_level = 0.2
+	}
+	set_autonomy = {
 		target = BRM
-		autonomous_state = autonomy_colonial_government
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = BWA
-		autonomous_state = autonomy_colonial_government
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = BEA
-		autonomous_state = autonomy_colonial_government
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = BSA
 		autonomous_state = autonomy_colonial_government
 		freedom_level = 0.2
 	}
@@ -235,11 +245,11 @@ set_politics = {
 set_popularities = {
 	communist = 0
 	socialist = 2
-	socdem = 8
-	libdem = 12
+	socdem = 18
+	libdem = 17
 	condem = 18
-	patdem = 26
-	autocrat = 24
+	patdem = 21
+	autocrat = 14
 	fascist = 10
 }
 

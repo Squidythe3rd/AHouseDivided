@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = BSA
-		add_core_of = BSA
+		owner = ZAM
+		add_core_of = ZAM
 		victory_points = {
 			5199 1
 		}
