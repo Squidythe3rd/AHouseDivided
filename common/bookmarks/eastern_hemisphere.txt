@@ -7,65 +7,33 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 
-		"GER"={
-			history = "GER_EASTERN_HEMISPHERE_DESC"
-			ideology = progressivism
+		"FRA"={
+			history = "FRA_EASTERN_HEMISPHERE_DESC"
+			ideology = fascism
 		}
-		"BRA"={
-			history = "BRA_EASTERN_HEMISPHERE_DESC"
-			ideology = paternalism			
-		}
-		"USA"={
-			history = "USA_EASTERN_HEMISPHERE_DESC"
-			ideology = democratic
-			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
-			}
-		}
-		"CSA"={
-			history = "CSA_EASTERN_HEMISPHERE_DESC"
+		"ENG"={
+			history = "ENG_EASTERN_HEMISPHERE_DESC"
 			ideology = paternalism
 		}
 		"SOV"={
 			history = "SOV_EASTERN_HEMISPHERE_DESC"
 			ideology = communism
 		}
-		"ENG"={
-			history = "ENG_EASTERN_HEMISPHERE_DESC"
-			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
-			}
-			focuses = {
-				ENG_imperial_federation
-				ENG_the_kings_party
-				ENG_organize_the_blackshirts
-			}
+		"CSA"={
+			history = "CSA_EASTERN_HEMISPHERE_DESC"
+			ideology = paternalism
 		}
-		"FRA"={
-			history = "FRA_EASTERN_HEMISPHERE_DESC"
-			ideology = democratic
-			available = { has_dlc = "La Resistance" } 
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
-			}
+		"USA"={
+			history = "USA_EASTERN_HEMISPHERE_DESC"
+			ideology = progressivism
+		}
+		"BRA"={
+			history = "BRA_EASTERN_HEMISPHERE_DESC"
+			ideology = paternalism			
+		}
+		"GER"={
+			history = "GER_EASTERN_HEMISPHERE_DESC"
+			ideology = progressivism
 		}
 
 		"---"={
