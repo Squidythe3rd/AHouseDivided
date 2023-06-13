@@ -255,10 +255,11 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Tshekedi Khama"
-	picture = GFX_portrait_Tshekedi_Khama
-	expire = "1965.1.1"
-	ideology = socialism
+	name = "King George V"
+	desc = "The leader of the United Kingdom."
+	picture = "gfx/leaders/ENG/Portrait_ENG_King_George_V.dds"
+	expire = "1936.1.20"
+	ideology = paternalism
 	traits = {
 		#
 	}

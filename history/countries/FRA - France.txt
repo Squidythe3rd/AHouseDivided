@@ -352,7 +352,18 @@ set_popularities = {
 	patdem = 13
 	autocrat = 25
 	fascist = 35
+}
 
+create_country_leader = {
+	
+	name = "King Jean III"
+	desc = "The leader of the Kingdom of France."
+	picture = "gfx/leaders/FRA/Portrait_FRA_King_Jean_III.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
 }
 
 add_ideas = {
