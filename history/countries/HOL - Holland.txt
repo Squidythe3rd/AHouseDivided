@@ -283,7 +283,7 @@ set_popularities = {
 	condem = 18
 	patdem = 12
 	autocrat = 8
-	communism = 12
+	fascist = 12
 }
 
 set_convoys = 150

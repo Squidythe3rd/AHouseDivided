@@ -88,5 +88,5 @@ set_politics = {
 }
 
 set_popularities = {
-	patdem = 30
+	patdem = 100
 }
