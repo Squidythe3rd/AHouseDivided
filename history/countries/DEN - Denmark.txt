@@ -178,22 +178,12 @@ set_politics = {
 set_popularities = {
 	communist = 0
 	socialist = 4
-	socdem = 36
-	libdem = 10
+	socdem = 31
+	libdem = 15
 	condem = 20
 	patdem = 15
 	autocrat = 10
 	fascist = 5
-}
-
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1939.4.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
 
 set_convoys = 40

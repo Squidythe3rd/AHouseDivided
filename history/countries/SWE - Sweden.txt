@@ -207,7 +207,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 3
+	communist = 3
 	socialist = 7
 	socdem = 35
 	libdem = 25
