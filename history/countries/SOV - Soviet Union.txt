@@ -17,15 +17,7 @@ set_party_name = {
 }
 
 #COUNTRY LEADERS
-recruit_character = SOV_iosif_stalin
-recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	recruit_character = SOV_provisional_government # United Exiles
-	set_country_flag = vlasov_owner_flag
-}
+recruit_character = SOV_alexei_rykov
 
 #POLITICAL ADVISORS
 recruit_character = SOV_mikhail_kalinin
@@ -1237,18 +1229,6 @@ set_popularities = {
 	communist = 77
 	socialist = 17
 	socdem = 6
-}
-
-create_country_leader = {
-	
-	name = "Alexei Rykov"
-	desc = "The leader of the Soviet Union."
-	picture = "gfx/leaders/SOV/Portrait_SOV_Alexei_Rykov.dds"
-	expire = "1965.1.1"
-	ideology = communism
-	traits = {
-		#
-	}
 }
 
 if = {

@@ -70,7 +70,7 @@ if = {
 }
 set_country_flag = monroe_doctrine
 
-recruit_character = BRA_Luis
+recruit_character = BRA_luis
 
 
 1939.1.1 = {
@@ -166,18 +166,6 @@ set_popularities = {
 	patdem = 10
 	autocrat = 17
 	fascist = 4
-}
-
-create_country_leader = {
-	
-	name = "Luís I"
-	desc = "The leader of the Empire of Brazil."
-	picture = "gfx/leaders/BRA/Portrait_BRA_Luis.dds"
-	expire = "1965.1.1"
-	ideology = paternalism
-	traits = {
-		#
-	}
 }
 
 set_convoys = 40
