@@ -1,0 +1,17 @@
+characters={
+	ENG_george_V={
+		name= "King George V"
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_george_V
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			traits = {  }
+			desc = "politics_George_V_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

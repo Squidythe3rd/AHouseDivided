@@ -1,0 +1,18 @@
+characters = {
+	SOV_alexei_rykov = {
+		name = "Alexei Rykov" 
+		portraits = {
+			civilian = {
+				large=GFX_portrait_SOV_alexei_rykov
+			}
+		}
+		country_leader = {
+			ideology = communism
+			traits = {  }
+			desc = "politics_Rykov_desc"
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,17 @@
+characters={
+	GER_Wilhelm_II={
+		name= "Kaiser Wilhelm II"
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_wilhelm_II
+			}
+		}
+		country_leader={
+			ideology = progressivism
+			traits = {  }
+			desc = "politics_Wilhelm_II_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

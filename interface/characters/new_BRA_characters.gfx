@@ -2,8 +2,8 @@ spriteTypes = {
 
 	
 	spriteType = {
-		name = "GFX_portrait_BRA_Luis"
-		texturefile = "gfx/leaders/BRA/Portrait_BRA_Luis.dds"
+		name = "GFX_portrait_BRA_luis"
+		texturefile = "gfx/leaders/BRA/Portrait_BRA_luis.dds"
 	}
 
 }

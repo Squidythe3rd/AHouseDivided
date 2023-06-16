@@ -11,13 +11,12 @@ state={
 	state_category = pastoral
 
 	history = {
-		owner = FER
+		owner = SOV
 		buildings = {
 			infrastructure = 2
 			air_base = 2
 		}
-		add_core_of = FER
-		add_claim_by = SOV
+		add_core_of = SOV
 	}
 
 	provinces = {

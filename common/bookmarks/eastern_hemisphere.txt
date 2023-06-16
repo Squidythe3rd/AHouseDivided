@@ -7,18 +7,6 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 
-		"FRA"={
-			history = "FRA_EASTERN_HEMISPHERE_DESC"
-			ideology = fascism
-		}
-		"ENG"={
-			history = "ENG_EASTERN_HEMISPHERE_DESC"
-			ideology = paternalism
-		}
-		"SOV"={
-			history = "SOV_EASTERN_HEMISPHERE_DESC"
-			ideology = communism
-		}
 		"CSA"={
 			history = "CSA_EASTERN_HEMISPHERE_DESC"
 			ideology = paternalism
@@ -27,21 +15,6 @@ bookmarks = {
 			history = "USA_EASTERN_HEMISPHERE_DESC"
 			ideology = progressivism
 		}
-		"BRA"={
-			history = "BRA_EASTERN_HEMISPHERE_DESC"
-			ideology = paternalism			
-		}
-		"GER"={
-			history = "GER_EASTERN_HEMISPHERE_DESC"
-			ideology = progressivism
-		}
-
-		"---"={
-			history = "OTHER_EASTERN_HEMISPHERE_DESC"
-		}
-
-
-		# minors from DLC ####
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

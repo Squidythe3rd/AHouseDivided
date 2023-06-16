@@ -1,0 +1,17 @@
+characters={
+	FRA_Jean_III={
+		name= "King Jean III"
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_jean_III
+			}
+		}
+		country_leader={
+			ideology = fascism
+			traits = {  }
+			desc = "politics_Jean_III_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+}

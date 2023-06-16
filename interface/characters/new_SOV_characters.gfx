@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	
+	spriteType = {
+		name = "GFX_portrait_SOV_alexei_rykov"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_alexei_rykov.dds"
+	}
+}

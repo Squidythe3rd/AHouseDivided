@@ -1,9 +1,9 @@
 characters={
-	BRA_Luis={
+	BRA_luis={
 		name= "Luís I"
 		portraits={
 			civilian={
-				large=GFX_portrait_BRA_Luis
+				large=GFX_portrait_BRA_luis
 			}
 		}
 		country_leader={
