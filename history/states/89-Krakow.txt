@@ -9,14 +9,14 @@ state={
 		#victory_points = {
 		#	6483 1
 		#}
-		owner = UKR
+		owner = POL
 		buildings = {
 			infrastructure = 3
 			air_base = 3
 
 		}
-		add_core_of = UKR
-		add_claim_by = POL
+		add_core_of = POL
+		add_claim_by = UKR
 	}
 
 	provinces={

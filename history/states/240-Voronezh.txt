@@ -7,13 +7,13 @@ state={
 		victory_points = {
 			9449 1 
 		}
-		owner = UKR
+		owner = SOV
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = UKR
-		add_claim_by = SOV
+		add_core_of = SOV
+		add_claim_by = UKR
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 1

@@ -5,8 +5,8 @@ state={
 		6484 6580 9452 11466 13262 
 	}
 	history={
-		owner = UKR
-		add_core_of = UKR
+		owner = POL
+		add_core_of = POL
 	}
 	manpower=265431
 	buildings_max_level_factor=1.000
