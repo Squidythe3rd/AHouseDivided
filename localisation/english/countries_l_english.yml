@@ -505,14 +505,14 @@
  NZL_ENG_patdem_subject:0 "Dominion of New Zeland"
  NZL_ENG_patdem_subject_DEF:0 "the Dominion of New Zeland"
 
- WAS_ENG_patdem_subject:0 "British West African Settlements"
- WAS_ENG_patdem_subject_DEF:0 "the British West African Settlements"
+ WAS_ENG_patdem_subject:0 "British West African Colonies"
+ WAS_ENG_patdem_subject_DEF:0 "the British West African Colonies"
 
- EAP_ENG_patdem_subject:0 "British East African Protectorate"
- EAP_ENG_patdem_subject_DEF:0 "the British East African Protectorate"
+ EAP_ENG_patdem_subject:0 "British East African Colonies"
+ EAP_ENG_patdem_subject_DEF:0 "the British East African Colonies"
 
- CAF_ENG_patdem_subject:0 "British Central African Federation"
- CAF_ENG_patdem_subject_DEF:0 "the British Central African Federation"
+ CAF_ENG_patdem_subject:0 "British Central African Colonies"
+ CAF_ENG_patdem_subject_DEF:0 "the British Central African Colonies"
 
  ANG_POR_patdem_subject:0 "Portuguese African Colonies"
  ANG_POR_patdem_subject_DEF:0 "the Portuguese African Colonies"
