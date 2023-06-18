@@ -121,11 +121,11 @@ set_popularities = {
 	communist = 5
 	socialist = 20
 	socdem = 25
-	libdem = 15
-	condem = 15
-	patdem = 10
-	autocrat = 6
-	fascist = 4
+	libdem = 10
+	condem = 10
+	patdem = 15
+	autocrat = 10
+	fascist = 5
 }
 
 set_convoys = 80
