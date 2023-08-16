@@ -2,7 +2,7 @@ spriteTypes = {
 
 	
 	spriteType = {
-		name = "GFX_portrait_USA_philip_follette"
-		texturefile = "gfx/leaders/USA/Portrait_USA_philip_follette.dds"
+		name = "GFX_portrait_USA_henry_wallace"
+		texturefile = "gfx/leaders/USA/Portrait_USA_henry_wallace.png"
 	}
 }

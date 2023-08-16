@@ -18,48 +18,88 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
-	name = "GFX_CSA_empire_stability"
-	texturefile = "gfx/interface/goals/CSA_empire_stability.dds"			
+	name = "GFX_CSA_ready_congress"
+	texturefile = "gfx/interface/goals/CSA_ready_congress.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_army_evaluation"
-	texturefile = "gfx/interface/goals/CSA_army_evaluation.dds"			
+	name = "GFX_CSA_unite_cabinet"
+	texturefile = "gfx/interface/goals/CSA_unite_cabinet.png"			
 	}	
 
 	SpriteType = {
-	name = "GFX_CSA_investigate_patton"
-	texturefile = "gfx/interface/goals/CSA_investigate_patton.dds"			
+	name = "GFX_CSA_brace_storm"
+	texturefile = "gfx/interface/goals/CSA_brace_storm.png"			
 	}
 	
 	SpriteType = {
-	name = "GFX_CSA_klan_sympathies"
-	texturefile = "gfx/interface/goals/CSA_klan_sympathies.dds"			
+	name = "GFX_CSA_birth_nation"
+	texturefile = "gfx/interface/goals/CSA_birth_nation.png"			
 	}
 	
 	SpriteType = {
-	name = "GFX_CSA_party_evaluation"
-	texturefile = "gfx/interface/goals/CSA_party_evaluation.dds"			
+	name = "GFX_CSA_save_south"
+	texturefile = "gfx/interface/goals/CSA_save_south.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_investigate_long"
-	texturefile = "gfx/interface/goals/CSA_investigate_long.dds"			
+	name = "GFX_CSA_restore_order"
+	texturefile = "gfx/interface/goals/CSA_restore_order.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_investigate_bibb"
-	texturefile = "gfx/interface/goals/CSA_investigate_bibb.dds"			
+	name = "GFX_CSA_crush_opposition"
+	texturefile = "gfx/interface/goals/CSA_crush_opposition.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_infiltrate_africa"
-	texturefile = "gfx/interface/goals/CSA_infiltrate_africa.dds"			
+	name = "GFX_CSA_integrate_old_guard"
+	texturefile = "gfx/interface/goals/CSA_integrate_old_guard.png"			
 	}
 
 	SpriteType = {
 	name = "GFX_CSA_the_people"
 	texturefile = "gfx/interface/goals/CSA_the_people.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_total_reset"
+	texturefile = "gfx/interface/goals/CSA_total_reset.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_state_terror"
+	texturefile = "gfx/interface/goals/CSA_state_terror.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_crush_terrorists"
+	texturefile = "gfx/interface/goals/CSA_crush_terrorists.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_secret_police"
+	texturefile = "gfx/interface/goals/CSA_secret_police.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_total_control"
+	texturefile = "gfx/interface/goals/CSA_total_control.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_minor_democracy"
+	texturefile = "gfx/interface/goals/CSA_minor_democracy.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_mob_justice"
+	texturefile = "gfx/interface/goals/CSA_mob_justice.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_fascist_purge"
+	texturefile = "gfx/interface/goals/CSA_fascist_purge.png"			
 	}
 	
 	SpriteType = {

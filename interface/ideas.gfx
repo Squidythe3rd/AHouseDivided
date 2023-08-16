@@ -34,8 +34,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_usa_empire"
-		texturefile = "gfx/interface/ideas/usa_empire.png"
+		name = "GFX_idea_usa_resurgent"
+		texturefile = "gfx/interface/ideas/usa_resurgent.png"
 	}
 
 	spriteType = {
@@ -44,8 +44,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_usa_secession"
-		texturefile = "gfx/interface/ideas/usa_secession.png"
+		name = "GFX_idea_usa_progressive_era"
+		texturefile = "gfx/interface/ideas/usa_progressive_era.png"
 	}
 
 	spriteType = {
