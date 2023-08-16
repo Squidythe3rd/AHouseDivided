@@ -1,0 +1,62 @@
+﻿l_english:
+
+### Country Names ###
+ USA_communist:0 "United States of America"
+ USA_communist_DEF:0 "the United States of America"
+ USA_socialist:0 "United States of America"
+ USA_socialist_DEF:0 "the United States of America"
+ USA_socdem:0 "United States of America"
+ USA_socdem_def:0 "the United States of America"
+ USA_libdem:0 "United States of America"
+ USA_libdem_DEF:0 "the United States of America"
+ USA_condem:0 "United States of America"
+ USA_condem_DEF:0 "the United States of America"
+ USA_patdem:0 "United States of America"
+ USA_patdem_DEF:0 "the United States of America"
+ USA_autocrat:0 "United States of America"
+ USA_autocrat_DEF:0 "the United States of America"
+ USA_fascist:0 "United States of America"
+ USA_fascist_DEF:0 "the United States of America"
+ USA_communist_ADJ:0 "American"
+ USA_socialist_ADJ:0 "American"
+ USA_socdem_ADJ:0 "American"
+ USA_libdem_ADJ:0 "American"
+ USA_condem_ADJ:0 "American"
+ USA_patdem_ADJ:0 "American"
+ USA_autocrat_ADJ:0 "American"
+ USA:0 "America"
+ USA_DEF:0 "America"
+ USA_ADJ:0 "American"
+
+### Parties ###
+ USA_communist_party:0 "CPUSA"
+ USA_communist_party_long:0 "Communist Party USA\n\n§gThe 20th century has been kind to American socialism, the SPA has reached national popularity and socialist beliefs influence much of American politics.\n\nBut for some socialists, these are only half-measures, distractions to prevent the worker from looking at the big picture, the true scope of capitalist exploitation in America, exploitation that the Communist Party of the USA cannot ignore.\n\nForming in the twenties as a radical alternative to the established SPA, the Communist Party of the USA is heavily influenced by Bolshevism and the works of Vladimir Lenin, desiring the achievement of a socialist state by force, until socialism can be achieved§! §Rfrom London to Havana, and from Berlin to New York.\n§!"
+ USA_socialist_party:0 "SPA - Mainstream"
+ USA_socialist_party_long:0 "Socialist Party of America - Mainstream\n\n§gText\n§!"
+ USA_socdem_party:0 "PPP - Progressive"
+ USA_socdem_party_long:0 "Populist-Progressive Pact - Progressive\n\n§gText\n§!"
+ USA_libdem_party:0 "PPP - Populist"
+ USA_libdem_party_long:0 "Populist-Progressive Pact - Populist\n\n§gText\n§!"
+ USA_condem_party:0 "GRP"
+ USA_condem_party_long:0 "Grand Republican Party\n\n§gText\n§!"
+ USA_patdem_party:0 "Democrats"
+ USA_patdem_party_long:0 "Democratic Party\n\n§gText\n§!"
+ USA_autocrat_party:0 "NPP - Moderates"
+ USA_autocrat_party_long:0 "National Peace Party - Moderates\n\n§gText\n§!"
+ USA_fascist_party:0 "NPP - Radical"
+ USA_fascist_party_long:0 "National Peace Party - Radical\n\n§gText\n§!"
+
+### Character Descriptions ###
+
+### Character Traits ###
+
+### National Spirits ###
+ usa_resurgent:0 "America Resurgent"
+ usa_resurgent_desc:0 "The dream, after all, is not dead.\n\nWith our hasty intervention in the Great War, and our victory over the Entente, decades of humiliation, despair, and weakness have at last come to an end! America has entered the 20th century as a new nation, united and indivisible, ready to avenge the catastrophes of the 1860's and 80's."
+ usa_progressive_era:0 "Fruits of the Progressive Era"
+ usa_progressive_era_desc:0 "Over the last few decades, US politics has come to be dominated by populism, progressivism, and various left-wing ideologies. During the Roosevelt and La Follette presidencies especially, the US saw a large scale rise in antitrust and workers rights laws made to promote competition and prevent exploitation.\n\nAmericans today enjoy a plethora of workers rights and protections the previous generations did not; resulting in a happy, healthy, and most importantly, supportive populace; one which will gladly support a progressive government in future endeavors."
+ usa_polarization:0 "Deeply Partisan Politics"
+ usa_polarization_desc:0 "While progressive politics may dominate much of Congress, they share a battleground with hardlining socialists, authoritarian democrats, and far-right populists. Congress can reguarly transform into an ugly affair as delagates viciously fight over issues, a reality which has put major strain on the United States' political stability."
+### National Focus ###
+
+### Events ###
