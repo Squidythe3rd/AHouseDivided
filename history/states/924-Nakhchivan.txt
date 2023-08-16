@@ -6,7 +6,7 @@ state={
 	history={
 		owner = AZR
 		victory_points = {
-			4600 3  
+			4600 3 
 		}
 		buildings = {
 			infrastructure = 1
@@ -26,9 +26,9 @@ state={
 	}
 
 	provinces={
-		4660 6642 6997 11708 12450
+		1467 1539 4660 6642 6997 9715 11708 12450 
 	}
-	manpower=250016
+	manpower=650016
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
