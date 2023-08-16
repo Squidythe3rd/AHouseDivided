@@ -92,18 +92,19 @@ set_politics = {
 }
 set_popularities = {
 	communist = 2
-	socialist = 26
-	socdem = 29
-	libdem = 6
-	condem = 16
-	patdem = 21
+	socialist = 18
+	socdem = 19
+	libdem = 13
+	condem = 17
+	patdem = 20
+	autocrat = 9
+	fascist = 2
 }
 
 add_ideas = {
-	usa_empire
+	usa_resurgent
+	usa_progressive_era
 	usa_polarization
-	usa_secession
-	usa_depression
 }
 
 
@@ -121,7 +122,7 @@ set_autonomy = {
 	autonomous_state =  autonomy_dependent_state
 }
 
-recruit_character = USA_philip_follette
+recruit_character = USA_henry_wallace
 recruit_character = USA_sinclair
 recruit_character = USA_hoover
 recruit_character = USA_landon

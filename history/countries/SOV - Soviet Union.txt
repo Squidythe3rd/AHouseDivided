@@ -1226,9 +1226,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communist = 77
-	socialist = 17
-	socdem = 6
+	communist = 64
+	socialist = 20
+	socdem = 9
+	libdem = 7
 }
 
 if = {
