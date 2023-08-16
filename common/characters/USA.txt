@@ -1,14 +1,13 @@
 characters={
-	USA_philip_follette={
-		name= "Philip La Follette"
+	USA_henry_wallace={
+		name= "Henry A. Wallace"
 		portraits={
 			civilian={
-				large=GFX_portrait_USA_philip_follette
+				large=GFX_portrait_USA_henry_wallace
 			}
 		}
 		country_leader={
 			ideology=progressivism
-			traits = { la_follette }
 			desc = "politics_philip_desc"
 			expire="1960.1.1.1"
 			id=-1
@@ -64,22 +63,8 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=paternalism
-			desc = "politics_gerald_smith_desc"
-			expire="1960.1.1.1"
-			id=-1
-		}
-	}
-	USA_george_marshall={
-		name= "George C. Marshall"
-		portraits={
-			civilian={
-				large=GFX_portrait_USA_george_marshall
-			}
-		}
-		country_leader={
 			ideology=autocracy
-			desc = "politics_george_marshall_desc"
+			desc = "politics_gerald_smith_desc"
 			expire="1960.1.1.1"
 			id=-1
 		}
