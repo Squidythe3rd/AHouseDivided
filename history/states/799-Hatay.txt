@@ -6,7 +6,6 @@ state={
 	history={
 		owner = TUR
 		add_core_of = TUR
-		add_core_of = SYR
 		add_claim_by = KUR
 		victory_points = {
 			12029 1 
