@@ -9,19 +9,10 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
+			infrastructure = 1
 
 		}
 		add_core_of = USA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-
-			}
-
-		}
 		victory_points = {
 			7834 1 
 		}
@@ -33,6 +24,6 @@ state={
 	}
 	manpower=1880998
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral
 	local_supplies=0.000
 }
