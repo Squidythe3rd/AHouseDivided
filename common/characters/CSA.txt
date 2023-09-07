@@ -1,6 +1,6 @@
 characters = {
 	CSA_McAdoo = {
-		name = "William G. McAdoo" 
+		name = McAdoo
 		portraits = {
 			civilian = {
 				large = GFX_portrait_CSA_McAdoo
@@ -70,17 +70,17 @@ characters = {
 			id = -1
 		}
 	}
-	CSA_William_Simmons = {
-		name = "William Joseph Simmons" 
+	CSA_thomas_dixon = {
+		name = thomas_dixon 
 		portraits = {
 			civilian = {
-				large = "GFX_portrait_CSA_William_Simmons"
+				large = "GFX_portrait_CSA_thomas_dixon"
 			}
 		}
 		country_leader = {
 			ideology = klanism
-			traits = { wizard }
-			desc = "politics_Simmons_desc"
+			traits = {  }
+			desc = "politics_thomas_dixon_desc"
 			expire = "1950.1.1.1"
 			id = -1
 		}

@@ -8,7 +8,8 @@ characters={
 		}
 		country_leader={
 			ideology=progressivism
-			desc = "politics_philip_desc"
+			desc = "politics_henry_wallace_desc"
+			traits = { agriculture_supporter }
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -27,16 +28,16 @@ characters={
 			id=-1
 		}
 	}
-	USA_hoover={
-		name= "Herbert C. Hoover"
+	USA_browder={
+		name= "Earl R. Browder"
 		portraits={
 			civilian={
-				large=GFX_portrait_USA_hoover
+				large=GFX_portrait_USA_browder
 			}
 		}
 		country_leader={
-			ideology=conservatism 
-			desc = "politics_hoover_desc"
+			ideology=communism
+			desc = "politics_browder_desc"
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -49,8 +50,36 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservatism 
 			desc = "politics_landon_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_truman={
+		name= "Harry S. Truman"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_truman
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			desc = "politics_truman_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_breckinridge={
+		name= "Henry Skillman Breckinridge"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_breckinridge
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			desc = "politics_breckinridge_desc"
 			expire="1960.1.1.1"
 			id=-1
 		}
@@ -65,6 +94,20 @@ characters={
 		country_leader={
 			ideology=autocracy
 			desc = "politics_gerald_smith_desc"
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	USA_charles_lindbergh={
+		name= "Charles A. Lindbergh"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_charles_lindbergh
+			}
+		}
+		country_leader={
+			ideology=corporatism
+			desc = "politics_charles_lindbergh_desc"
 			expire="1960.1.1.1"
 			id=-1
 		}

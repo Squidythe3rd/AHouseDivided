@@ -783,8 +783,8 @@ VEE = {
 	color_ui = rgb { 180 25 0 }
 }
 SOI = {
-	color = rgb { 153 38 38 }
-	color_ui = rgb { 153 38 38 }
+	color = rgb { 50 97 31 }
+	color_ui = rgb { 50 97 31 }
 }
 QIN = {
 	color = rgb { 225 198 0 }
