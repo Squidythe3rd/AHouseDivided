@@ -12,15 +12,23 @@
 
 	default = no
 
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 50 y = 2000 }
 
 	focus = {
 		id = CSA_fading_father
 		icon = GFX_CSA_fading_father
-		x = 12
+		x = 15
 		y = 0
 
 		cost = 1
+
+		allow_branch = {
+			if = {
+				NOT = {
+					has_completed_focus = CSA_birth_nation
+				}
+			}
+		}
 
 		ai_will_do = {
 			factor = 1
@@ -220,31 +228,328 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
-			country_event = Confederacy.4
+			add_stability = 0.05
+			hidden_effect = {
+				country_event = {
+					id = Confederacy.4
+					days = 2
+				}
+			}
 		}
 	}
 
 	focus = {
-		id = CSA_birth_nation
-		icon = GFX_goal_CSA_birth_nation
-		prerequisite = {
+		id = CSA_congress_halls
+		icon = GFX_CSA_congress_halls
+		x = -3
+		y = 1
+
+		prerequisite = { 
 			focus = CSA_brace_storm
 		}
 		relative_position_id = CSA_brace_storm
-		x = 0
-		y = 1
-		cost = 1
-		ai_will_do = { factor = 20 }
 
-		allow_branch = {
-			has_global_flag = CSA_birth_nation
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_POLITICAL }
+
 		completion_reward = {
-			country_event = Confederacy.kgc1
+			country_event = Confederacy.4
 		}
+	}
+
+	focus = {
+		id = CSA_kings_men
+		icon = GFX_CSA_kings_men
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_congress_halls
+		}
+		relative_position_id = CSA_congress_halls
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_root_evil
+		icon = GFX_CSA_root_evil
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_congress_halls
+		}
+		relative_position_id = CSA_congress_halls
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_rally_srdp
+		icon = GFX_CSA_integrate_old_guard
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_kings_men
+			focus = CSA_root_evil
+		}
+		relative_position_id = CSA_kings_men
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_richmond_streets
+		icon = GFX_CSA_richmond_streets
+		x = 3
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_brace_storm
+		}
+		relative_position_id = CSA_brace_storm
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = CSA_the_jbl
+		icon = GFX_CSA_crush_terrorists
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_richmond_streets
+		}
+		relative_position_id = CSA_richmond_streets
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_the_nkgc
+		icon = GFX_CSA_nkgc
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_richmond_streets
+		}
+		relative_position_id = CSA_richmond_streets
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_exec_order
+		icon = GFX_CSA_exec_order
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_the_jbl
+			focus = CSA_the_nkgc
+		}
+		relative_position_id = CSA_the_jbl
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = CSA_espionage_act
+		icon = GFX_CSA_espionage_act
+		x = 3
+		y = 1
+
+		prerequisite = { 
+			focus = CSA_rally_srdp
+		}
+		prerequisite = { 
+			focus = CSA_exec_order
+		}
+		relative_position_id = CSA_rally_srdp
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+		}
+	}
+
+
 }
