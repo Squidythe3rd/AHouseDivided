@@ -1,0 +1,41 @@
+﻿l_english:
+
+### Country Names ###
+ SOI_communist:0 "Socialist Republic of Italy"
+ SOI_communist_DEF:0 "the Socialist Republic of Italy"
+ SOI_socialist:0 "Italian Commune"
+ SOI_socialist_DEF:0 "the Italian Commune"
+ SOI_socdem:0 "Republic of Italy"
+ SOI_socdem_def:0 "the Republic of Italy"
+ SOI_libdem:0 "Republic of Italy"
+ SOI_libdem_DEF:0 "the Republic of Italy"
+ SOI_condem:0 "Republic of Italy"
+ SOI_condem_DEF:0 "the Republic of Italy"
+ SOI_patdem:0 "Italian Social Republic"
+ SOI_patdem_DEF:0 "the Italian Social Republic"
+ SOI_autocrat:0 "Italian Social Republic"
+ SOI_autocrat_DEF:0 "the Italian Social Republic"
+ SOI_fascist:0 "Italian Social Republic"
+ SOI_fascist_DEF:0 "the Italian Social Republic"
+ SOI_communist_ADJ:0 "North Italian"
+ SOI_socialist_ADJ:0 "North Italian"
+ SOI_socdem_ADJ:0 "North Italian"
+ SOI_libdem_ADJ:0 "North Italian"
+ SOI_condem_ADJ:0 "North Italian"
+ SOI_patdem_ADJ:0 "North Italian"
+ SOI_autocrat_ADJ:0 "North Italian"
+ SOI:0 "Italian Social Republic"
+ SOI_DEF:0 "North Italy"
+ SOI_ADJ:0 "North Italian"
+
+### Parties ###
+
+### Character Descriptions ###
+
+### Character Traits ###
+
+### National Spirits ###
+
+### National Focus ###
+
+### Events ###
