@@ -77,7 +77,7 @@ if = {
 recruit_character = CSA_McAdoo
 recruit_character = CSA_Huey_Long_P
 recruit_character = CSA_Bibb_Graves
-recruit_character = CSA_William_Simmons
+recruit_character = CSA_thomas_dixon
 recruit_character = CSA_Patton
 recruit_character = CSA_Richard_Russell
 
@@ -101,6 +101,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	csa_slavery_legacy
 	csa_great_depression
 	csa_unsplendid_isolation
 }
@@ -111,17 +112,22 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = ELS
-	autonomous_state = autonomy_dependent_state
+	autonomous_state = autonomy_banana_republic
 	freedom_level = 0.4
 }
 set_autonomy = {
 	target = COS
-	autonomous_state = autonomy_dependent_state
+	autonomous_state = autonomy_banana_republic
 	freedom_level = 0.4
 }
 set_autonomy = {
 	target = GUA
-	autonomous_state = autonomy_dependent_state
+	autonomous_state = autonomy_banana_republic
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = HAW
+	autonomous_state = autonomy_banana_republic
 	freedom_level = 0.4
 }
 
