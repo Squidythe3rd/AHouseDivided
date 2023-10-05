@@ -10,8 +10,8 @@ state={
 	history={
 		owner = CSA
 		add_dynamic_modifier = {
-			modifier = Local Navajo Autonomy
-
+			modifier = Local
+			Navajo Autonomy 
 		}
 		buildings = {
 			infrastructure = 2
@@ -19,10 +19,11 @@ state={
 		}
 		add_core_of = CSA
 		set_demilitarized_zone = no
+
 	}
 
 	provinces={
-		850 1793 1972 4799 6897 7821 10573 10645 11814 12552 12765 
+		850 1793 1972 1994 4799 6897 7821 7985 10573 10645 11814 12552 12765 
 	}
 	manpower=120864
 	buildings_max_level_factor=1.000
