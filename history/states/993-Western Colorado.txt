@@ -1,0 +1,21 @@
+state={
+	id=993
+	name="STATE_993"
+	history={
+		owner = DES
+		add_core_of = DES
+		add_claim_by = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=35932
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+	provinces={
+		868 1658 6887 7684 7999 8030 10104 10535 10786 
+	}
+}

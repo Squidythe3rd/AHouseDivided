@@ -1,6 +1,6 @@
 state={
 	id=981
-	name="Santa Fe"
+	name="STATE_981"
 	resources={
 		oil=4.000
 		aluminium=10.000

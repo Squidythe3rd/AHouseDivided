@@ -1,0 +1,31 @@
+state={
+	id=992
+	name="STATE_992"
+
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 3
+
+		}
+		add_core_of = CSA
+		add_core_of = TEX
+		victory_points = {
+			5022 15
+		}
+	}
+	provinces={
+		1915 3875 5022 7836 7981 9773 12301 12341 12410 12848 12875 12893 
+	}
+	manpower=2358736
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=5.000
+}

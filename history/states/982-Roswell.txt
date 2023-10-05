@@ -1,23 +1,27 @@
+
 state={
 	id=982
-	name="Roswell"
+	name="STATE_982"
 	resources={
 		steel=4.000
 		oil=3.000
 		aluminium=12.000
 	}
-	provinces={
-		3867 3883 8070 12720 12791 
-	}
+
 	history={
 		owner = CSA
 		buildings = {
 			air_base = 1
+
 		}
 		add_core_of = CSA
 		add_claim_by = TEX
+
 	}
 
+	provinces={
+		3867 3883 8070 10884 12720 12791 
+	}
 	manpower=125653
 	buildings_max_level_factor=1.000
 	state_category=rural
