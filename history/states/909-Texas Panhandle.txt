@@ -1,0 +1,27 @@
+
+state={
+	id=909
+	name="STATE_909"
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3972 1 
+		}
+
+	}
+
+	provinces={
+		2055 3972 4919 5004 9908 12624 
+	}
+	manpower=32294
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
