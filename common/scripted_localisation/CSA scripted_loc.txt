@@ -1,0 +1,130 @@
+defined_text = {
+	name = CSA_whatis_longist_support
+	text = {
+		trigger = {
+			check_variable = { CSA_longist_support > 69 }
+		}
+		localization_key = CSA_longists_supportive
+	}
+	text = {
+		trigger = {
+			check_variable = { CSA_longist_support > 39 }
+		}
+		localization_key = CSA_longists_neutral
+	}
+	text = {
+		localization_key = CSA_longists_unsupportive
+	}
+}
+
+defined_text = {
+	name = CSA_whatis_liberal_support
+	text = {
+		trigger = {
+			check_variable = { CSA_liberal_support > 69 }
+		}
+		localization_key = CSA_liberal_supportive
+	}
+	text = {
+		trigger = {
+			check_variable = { CSA_liberal_support > 39 }
+		}
+		localization_key = CSA_liberal_neutral
+	}
+	text = {
+		localization_key = CSA_liberal_unsupportive
+	}
+}
+
+defined_text = {
+	name = CSA_whatis_moderate_support
+	text = {
+		trigger = {
+			check_variable = { CSA_moderate_support > 69 }
+		}
+		localization_key = CSA_moderate_supportive
+	}
+	text = {
+		trigger = {
+			check_variable = { CSA_moderate_support > 39 }
+		}
+		localization_key = CSA_moderate_neutral
+	}
+	text = {
+		localization_key = CSA_moderate_unsupportive
+	}
+}
+
+defined_text = {
+	name = CSA_whatis_conservative_support
+	text = {
+		trigger = {
+			check_variable = { CSA_conservative_support > 69 }
+		}
+		localization_key = CSA_conservative_supportive
+	}
+	text = {
+		trigger = {
+			check_variable = { CSA_conservative_support > 39 }
+		}
+		localization_key = CSA_conservative_neutral
+	}
+	text = {
+		localization_key = CSA_conservative_unsupportive
+	}
+}
+
+defined_text = {
+	name = CSA_whatis_radical_support
+	text = {
+		trigger = {
+			check_variable = { CSA_radical_support > 69 }
+		}
+		localization_key = CSA_radical_supportive
+	}
+	text = {
+		trigger = {
+			check_variable = { CSA_radical_support > 39 }
+		}
+		localization_key = CSA_radical_neutral
+	}
+	text = {
+		localization_key = CSA_radical_unsupportive
+	}
+}
+
+defined_text = {
+	name = CSA_espionage_bill_status
+	text = {
+		trigger = {
+			count_triggers = {
+				amount = 4
+				check_variable = { CSA_longist_support > 69 }
+				check_variable = { CSA_liberal_support > 69 }
+				check_variable = { CSA_moderate_support > 69 }
+				check_variable = { CSA_conservative_support > 69 }
+				check_variable = { CSA_radical_support > 69 }
+			}
+		}
+		localization_key = CSA_dea_success_tt
+	}
+	text = {
+		localization_key = CSA_dea_failure_tt
+	}
+}
+defined_text = {
+	name = CSA_espionage_bill_status_can_pass
+	text = {
+		trigger = {
+			count_triggers = {
+				amount = 4
+				check_variable = { CSA_longist_support > 69 }
+				check_variable = { CSA_liberal_support > 69 }
+				check_variable = { CSA_moderate_support > 69 }
+				check_variable = { CSA_conservative_support > 69 }
+				check_variable = { CSA_radical_support > 69 }
+			}
+		}
+		localization_key = CSA_dea_can_pass
+	}
+}

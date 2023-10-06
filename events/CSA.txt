@@ -12,8 +12,8 @@ country_event = {
 	option = {
 		name = Confederacy.1.a
 		ai_chance = { factor = 90 }
-		}
 	}
+}
 
 country_event = {
 	id = Confederacy.2
@@ -26,8 +26,8 @@ country_event = {
 	option = {
 		name = Confederacy.2.a
 		ai_chance = { factor = 90 }
-		}
 	}
+}
 
 country_event = {
 	id = Confederacy.3
@@ -48,143 +48,166 @@ country_event = {
 		add_popularity = { ideology = condem popularity = 0.05 }
 		add_popularity = { ideology = patdem popularity = -0.05 }
 		retire_character = CSA_McAdoo
-		}
 	}
+}
 
 country_event = {
 	id = Confederacy.4
 	title = Confederacy.4.t
 	desc = Confederacy.4.d
-	picture = GFX_report_event_CSA_congress
+	picture = GFX_report_event_generic_conference
 	
 	is_triggered_only = yes
-	
-	option = {
-		name = Confederacy.4.a
-		ai_chance = { factor = 90 }
-		hidden_effect = {
-			country_event = {
-				id = Confederacy.5
-				days = 5
-			}
-		}
-		add_stability = -0.1
-		add_popularity = { ideology = communist popularity = 0.025 }
-		add_popularity = { ideology = socialist popularity = 0.05 }
-		}
+	fire_only_once = yes
+	immediate = {
+		set_country_flag = CSA_espionage_act_flag
+		set_variable = { CSA_longist_support = 20 }
+		set_variable = { CSA_liberal_support = 70 }
+		set_variable = { CSA_moderate_support = 70 }
+		set_variable = { CSA_conservative_support = 40 }
+		set_variable = { CSA_radical_support = 30 }
+
 	}
+
+	option = {
+		log = "[GetLogInfo]: event Confederacy.4 option confederacy.4.a"
+		name = Confederacy.4.a
+		activate_mission = CSA_bill_deadline
+		activate_targeted_decision = { decision = CSA_use_army_dea target = THIS }
+		activate_targeted_decision = { decision = CSA_exploit_rivalry target = THIS }
+		activate_targeted_decision = { decision = CSA_maintain_center target = THIS }
+		activate_targeted_decision = { decision = CSA_discredit_radicals target = THIS }
+		activate_targeted_decision = { decision = CSA_cooperate_radicals target = THIS }
+		activate_targeted_decision = { decision = CSA_jbl_fears target = THIS }
+		activate_mission = CSA_enemies_moves
+	}
+
+}
 
 country_event = {
 	id = Confederacy.5
 	title = Confederacy.5.t
 	desc = Confederacy.5.d
-	picture = GFX_report_event_CSA_congress
+	picture = GFX_report_event_generic_rally_3
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = Confederacy.5.a
 		ai_chance = { factor = 90 }
-		country_event = {
-			id = Confederacy.6
-			hours = 2
-		}
-		}
+		add_popularity = { ideology = socdem popularity = 0.05 }
+		custom_effect_tooltip = CSA_longist_support_increase_greatly
+		add_to_variable = { CSA_longist_support = 30 }
+		custom_effect_tooltip = CSA_radical_support_decrease
+		add_to_variable = { CSA_radical_support = -10 }
 	}
+
+	option = {
+		name = Confederacy.5.b
+		ai_chance = { factor = 90 }
+		add_popularity = { ideology = fascist popularity = 0.05 }
+		custom_effect_tooltip = CSA_radical_support_increase_greatly
+		add_to_variable = { CSA_radical_support = 30 }
+		custom_effect_tooltip = CSA_longist_support_decrease
+		add_to_variable = { CSA_longist_support = -10 }
+	}
+}
 
 country_event = {
 	id = Confederacy.6
 	title = Confederacy.6.t
 	desc = Confederacy.6.d
-	picture = GFX_report_event_CSA_congress
+	picture = GFX_report_event_generic_read_write
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = Confederacy.6.a ###Fascist Takeover###
-		ai_chance = { factor = 70 }
-		country_event = {
-			id = Confederacy.7 
-			days = 1
-		}
-		set_politics = {
-			ruling_party = fascist
-			elections_allowed = no
-		}
-		add_popularity = { ideology = fascist popularity = 0.1 }
-		}
-	option = {
-		name = Confederacy.6.b ###Military Intervention###
-		ai_chance = { factor = 30 }
-		set_politics = {
-			ruling_party = autocrat
-			elections_allowed = no
-		}
-		KGC = {
-			transfer_state = 990
-			declare_war_on = { type = annex_everything    target = CSA }
-		}
-		set_global_flag = CSA_richmond_rebellion
-		}
+		name = Confederacy.6.a
+		ai_chance = { factor = 90 }
+
+		custom_effect_tooltip = CSA_moderate_support_increase
+		add_to_variable = { CSA_moderate_support = 10 }
+		custom_effect_tooltip = CSA_conservative_support_increase
+		add_to_variable = { CSA_conservative_support = 10 }
+		custom_effect_tooltip = CSA_radical_support_increase
+		add_to_variable = { CSA_radical_support = 10 }
+		add_popularity = { ideology = socialist popularity = -0.025 }
 	}
+
+	option = {
+		name = Confederacy.6.b
+		ai_chance = { factor = 90 }
+		custom_effect_tooltip = CSA_longist_support_increase
+		add_to_variable = { CSA_longist_support = 10 }
+		custom_effect_tooltip = CSA_liberal_support_increase
+		add_to_variable = { CSA_liberal_support = 10 }
+		custom_effect_tooltip = CSA_moderate_support_increase
+		add_to_variable = { CSA_moderate_support = 10 }
+		custom_effect_tooltip = CSA_radical_support_decrease
+		add_to_variable = { CSA_radical_support = -10 }
+		add_popularity = { ideology = fascist popularity = -0.025 }
+	}
+}
 
 country_event = {
 	id = Confederacy.7
 	title = Confederacy.7.t
 	desc = Confederacy.7.d
-	picture = GFX_report_event_CSA_congress
-	
 	is_triggered_only = yes
-	
-	option = {
-		name = Confederacy.7.a
-		ai_chance = { factor = 90 }
-		country_event = {
-			id = Confederacy.6
-			days = 1
-		}
-		complete_national_focus = CSA_birth_nation
-		set_global_flag = CSA_birth_nation
+	fire_only_once = yes
+	immediate = {
 		hidden_effect = {
-			news_event = { day = 1 id = news.confederacy2 }
-		}
+			remove_targeted_decision = { decision = CSA_use_army_dea target = THIS }
+			remove_targeted_decision = { decision = CSA_exploit_rivalry target = THIS }
+			remove_targeted_decision = { decision = CSA_maintain_center target = THIS }
+			remove_targeted_decision = { decision = CSA_discredit_radicals target = THIS }
+			remove_targeted_decision = { decision = CSA_cooperate_radicals target = THIS }
+			remove_targeted_decision = { decision = CSA_jbl_fears target = THIS }
+			remove_mission = CSA_bill_deadline
+			remove_mission = CSA_enemies_moves
+			clr_country_flag = CSA_espionage_act_flag
+			clear_variable = CSA_longist_support
+			clear_variable = CSA_liberal_support
+			clear_variable = CSA_moderate_support
+			clear_variable = CSA_conservative_support
+			clear_variable = CSA_radical_support
+			clear_variable = CSA_bill_success
 		}
 	}
+	picture = GFX_report_event_CSA_doroshenko
 
-country_event = {
-	id = Confederacy.kgc1
-	title = Confederacy.kgc1.t
-	desc = Confederacy.kgc1.d
-	picture = GFX_report_event_CSA_oval_office
-	
-	is_triggered_only = yes
-	
 	option = {
-		name = Confederacy.kgc1.a
-		ai_chance = { factor = 90 }
+		log = "[GetLogInfo]: event Confederacy.7 option Confederacy.7.a"
+		name = Confederacy.7.a # failure
+		trigger = {
+			NOT = {
+				check_variable = { CSA_bill_success < 4 }
+			}
+			
 		}
-	}
+		complete_national_focus = CSA_dea_fails
+		add_stability = -0.15
+		add_popularity = { ideology = communist popularity = 0.05 }
+		add_popularity = { ideology = socialist popularity = 0.05 }
+		add_popularity = { ideology = fascist popularity = 0.15 }
+		set_country_flag = CSA_dea_fails_flag
+		clr_country_flag = CSA_espionage_act_flag
 
-country_event = {
-	id = Confederacy.intervention1
-	title = Confederacy.intervention1.t
-	desc = Confederacy.intervention1.d
-	picture = GFX_report_event_CSA_congress
-	
-	trigger = {
-		CSA = {
-			has_government = autocrat
-			owns_state = 990
-			has_global_flag = CSA_richmond_rebellion
-		}
 	}
-	
 	option = {
-		name = Confederacy.intervention1.a
-		ai_chance = { factor = 90 }
-		add_popularity = { ideology = autocrat popularity = 0.1 }
-		add_popularity = { ideology = fascist popularity = -0.25 }
-		clr_global_flag = CSA_richmond_rebellion
+		log = "[GetLogInfo]: event Confederacy.7 option Confederacy.7.b"
+		name = Confederacy.7.b #success
+		trigger = {
+			check_variable = {
+				check_variable = { CSA_bill_success < 4 }
+			}
 		}
+		complete_national_focus = CSA_espionage_act
+		add_stability = 0.15
+		add_popularity = { ideology = socdem popularity = 0.05 }
+		add_popularity = { ideology = libdem popularity = 0.05 }
+		add_popularity = { ideology = condem popularity = 0.15 }
+		set_country_flag = CSA_dea_passes_flag
+		clr_country_flag = CSA_espionage_act_flag
 	}
 }

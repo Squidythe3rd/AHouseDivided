@@ -1,0 +1,33 @@
+CSA_calculate_success_of_the_bill = {
+	set_variable = { CSA_bill_success = 0 }
+	if = {
+		limit = {
+			check_variable = { CSA_longist_support > 69 }
+		}
+		add_to_variable = { CSA_bill_success = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { CSA_liberal_support > 69 }
+		}
+		add_to_variable = { CSA_bill_success = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { CSA_moderate_support > 69 }
+		}
+		add_to_variable = { CSA_bill_success = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { CSA_conservative_support > 69 }
+		}
+		add_to_variable = { CSA_bill_success = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = { CSA_radical_support > 69 }
+		}
+		add_to_variable = { CSA_bill_success = 1 }
+	}
+}

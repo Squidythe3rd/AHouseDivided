@@ -1,0 +1,9 @@
+################
+##### CSA ######
+################
+CSA_espionage_act_decisions = {
+	icon = GFX_decision_category_generic_political_actions
+	allowed = { always = no }
+	visible_when_empty = yes
+	priority = 200
+}

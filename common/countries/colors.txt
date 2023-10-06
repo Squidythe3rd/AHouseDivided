@@ -866,3 +866,7 @@ CAF = {
 	color = rgb { 174 12 12 }
 	color_ui = rgb { 174 12 12 }
 }
+HAW = {
+	color = rgb { 85 174 85 }
+	color_ui = rgb { 85 174 85 }
+}

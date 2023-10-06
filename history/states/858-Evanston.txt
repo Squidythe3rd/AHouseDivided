@@ -1,0 +1,20 @@
+
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = DES
+		add_core_of = DES
+		add_claim_by = USA
+
+	}
+
+	provinces={
+		1057 4924 
+	}
+	manpower=3952
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

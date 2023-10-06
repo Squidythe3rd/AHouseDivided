@@ -60,8 +60,8 @@ ideas = {
 				war_support_factor = -0.25
 			}
 		}
-		csa_huey = {
-			picture = csa_huey
+		csa_slavery_legacy = {
+			picture = csa_slavery_legacy
 			
 			allowed = {
 				always = no
@@ -74,8 +74,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				socdem_drift = 0.05
-				libdem_drift = 0.05
+				political_power_gain = -0.50
+				stability_factor = -0.05
+				recruitable_population_factor = -0.25
 			}
 		}
 		csa_great_depression = {

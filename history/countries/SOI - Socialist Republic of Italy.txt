@@ -98,16 +98,17 @@ if = {
 set_convoys = 60
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = fascist
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	socdem = 15
-	libdem = 10
-	socialist = 65
-	communism = 10
+	communist = 8
+	socialist = 10
+	patdem = 13
+	autocrat = 21
+	fascist = 48
 }
 
 

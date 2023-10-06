@@ -1,0 +1,199 @@
+CSA_espionage_act_decisions = {
+	CSA_bill_deadline = {
+		icon = GFX_decision_generic_political_discourse
+		activation = {
+			always = no
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		allowed = { always = no }
+		visible = { has_country_flag = CSA_espionage_act_flag }
+		cancel_if_not_visible = yes
+		fire_only_once = yes
+		selectable_mission = no
+		is_good = yes
+		days_mission_timeout = 170
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout CSA_bill_deadline"
+			CSA_calculate_success_of_the_bill = yes
+			country_event = confederacy.7
+			clr_country_flag = CSA_espionage_act_flag
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_use_army_dea"
+			country_event = confederacy.7
+		}
+	}
+	CSA_enemies_moves = {
+		icon = GFX_decision_generic_political_discourse
+		activation = {
+			always = no
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		allowed = { always = no }
+		visible = { has_country_flag = CSA_espionage_act_flag }
+		cancel_if_not_visible = yes
+		selectable_mission = no
+		fire_only_once = no
+		is_good = yes
+		days_mission_timeout = 50
+		timeout_effect = {
+			hidden_effect = {
+				activate_mission = CSA_enemies_moves
+			}
+			custom_effect_tooltip = CSA_factions_support_decrease
+			add_to_variable = { CSA_longist_support = -10 }
+			add_to_variable = { CSA_radical_support = -10 }
+			add_to_variable = { CSA_liberal_support = -10 }
+			add_to_variable = { CSA_conservative_support = -10 }
+		}
+	}
+	CSA_use_army_dea = {
+		icon = GFX_decision_ignite_civil_war
+		fire_only_once = no
+		custom_cost_trigger = {
+    			command_power > 25
+		}
+		custom_cost_text = CSA_decision_cost_CP_25
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 28
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_use_army_dea"
+			add_political_power = 50
+			custom_effect_tooltip = CSA_radical_support_decrease
+			add_to_variable = { CSA_radical_support = -10 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_use_army_dea"
+			add_command_power = -25
+		}
+	}
+	CSA_exploit_rivalry = {
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = no
+		cost = 25
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 14
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_exploit_rivalry"
+			custom_effect_tooltip = CSA_longist_support_increase_greatly
+			custom_effect_tooltip = CSA_radical_support_decrease_greatly
+			add_to_variable = { CSA_longist_support = 30 }
+			add_to_variable = { CSA_radical_support = -20 }
+			add_popularity = {
+				ideology = socdem
+				popularity = 0.02
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_exploit_rivalry"
+		}
+	}
+	CSA_maintain_center = {
+		icon = GFX_decision_generic_mountain_fortification
+		fire_only_once = no
+		cost = 15
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 14
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_maintain_center"
+			custom_effect_tooltip = CSA_moderate_support_increase
+			custom_effect_tooltip = CSA_conservative_support_increase
+			add_to_variable = { CSA_moderate_support = 10 }
+			add_to_variable = { CSA_conservative_support = 10 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_maintain_center"
+		}
+	}
+	CSA_discredit_radicals = {
+		icon = GFX_decision_generic_agreement
+		fire_only_once = no
+		cost = 50
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 14
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_discredit_radicals"
+			custom_effect_tooltip = CSA_liberal_support_increase_greatly
+			custom_effect_tooltip = CSA_moderate_support_increase_greatly
+			custom_effect_tooltip = CSA_conservative_support_increase
+			custom_effect_tooltip = CSA_longist_support_decrease_greatly
+			custom_effect_tooltip = CSA_radical_support_decrease_greatly
+			add_to_variable = { CSA_liberal_support = 30 }
+			add_to_variable = { CSA_moderate_support = 30 }
+			add_to_variable = { CSA_conservative_support = 10 }
+			add_to_variable = { CSA_longist_support = -20 }
+			add_to_variable = { CSA_radical_support = -20 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_discredit_radicals"
+		}
+	}
+	CSA_cooperate_radicals = {
+		icon = GFX_decision_generic_nationalism
+		fire_only_once = no
+		cost = 50
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 14
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_cooperate_radicals"
+			custom_effect_tooltip = CSA_longist_support_increase_greatly
+			custom_effect_tooltip = CSA_radical_support_increase_greatly
+			custom_effect_tooltip = CSA_liberal_support_decrease_greatly
+			custom_effect_tooltip = CSA_moderate_support_decrease_greatly
+			custom_effect_tooltip = CSA_conservative_support_decrease
+			add_to_variable = { CSA_longist_support = 30 }
+			add_to_variable = { CSA_radical_support = 30 }
+			add_to_variable = { CSA_liberal_support = -20 }
+			add_to_variable = { CSA_moderate_support = -20 }
+			add_to_variable = { CSA_conservative_support = -10 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_cooperate_radicals"
+		}
+	}
+	CSA_jbl_fears = {
+		icon = GFX_decision_ignite_civil_war
+		fire_only_once = no
+		cost = 100
+		allowed = { always = no }
+		available = { has_country_flag = CSA_espionage_act_flag }
+		visible = { has_active_mission = CSA_bill_deadline }
+		cancel_if_not_visible = yes
+		days_remove = 14
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove CSA_jbl_fears"
+			custom_effect_tooltip = CSA_longist_support_increase
+			custom_effect_tooltip = CSA_liberal_support_increase
+			custom_effect_tooltip = CSA_moderate_support_increase_greatly
+			custom_effect_tooltip = CSA_conservative_support_increase_greatly
+			custom_effect_tooltip = CSA_radical_support_increase_greatly
+			add_to_variable = { CSA_longist_support = 10 }
+			add_to_variable = { CSA_liberal_support = 10 }
+			add_to_variable = { CSA_moderate_support = 30 }
+			add_to_variable = { CSA_conservative_support = 30 }
+			add_to_variable = { CSA_radical_support = 30 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete CSA_jbl_fears"
+		}
+	}
+}

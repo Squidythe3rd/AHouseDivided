@@ -38,13 +38,33 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_CSA_save_south"
-	texturefile = "gfx/interface/goals/CSA_save_south.png"			
+	name = "GFX_CSA_congress_halls"
+	texturefile = "gfx/interface/goals/CSA_congress_halls.png"			
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_restore_order"
-	texturefile = "gfx/interface/goals/CSA_restore_order.png"			
+	name = "GFX_CSA_root_evil"
+	texturefile = "gfx/interface/goals/CSA_root_evil.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_kings_men"
+	texturefile = "gfx/interface/goals/CSA_kings_men.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_richmond_streets"
+	texturefile = "gfx/interface/goals/CSA_richmond_streets.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_the_nkgc"
+	texturefile = "gfx/interface/goals/CSA_the_nkgc.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_exec_order"
+	texturefile = "gfx/interface/goals/CSA_exec_order.png"			
 	}
 
 	SpriteType = {
@@ -98,8 +118,13 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-	name = "GFX_CSA_fascist_purge"
-	texturefile = "gfx/interface/goals/CSA_fascist_purge.png"			
+	name = "GFX_CSA_espionage_act"
+	texturefile = "gfx/interface/goals/CSA_espionage_act.png"			
+	}
+
+	SpriteType = {
+	name = "GFX_CSA_dea_fails"
+	texturefile = "gfx/interface/goals/CSA_dea_fails.png"			
 	}
 	
 	SpriteType = {
