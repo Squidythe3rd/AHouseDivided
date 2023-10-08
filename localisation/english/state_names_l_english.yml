@@ -378,7 +378,6 @@
  STATE_375:1 "Trinity"
  STATE_376:0 "New Mexico"
  STATE_377:0 "Arizona"
- STATE_378:0 "Northern California"
  STATE_379:0 "Nevada"
  STATE_380:0 "Utah"
  STATE_381:0 "Wyoming"
@@ -998,3 +997,4 @@
  STATE_995:0 "Outer California"
  STATE_996:0 "Lakeview"
  STATE_997:0 "Pocatello"
+ STATE_998:0 "Northern California"
