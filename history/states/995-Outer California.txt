@@ -1,0 +1,22 @@
+state = {
+	id = 995
+	name = "STATE_995"
+
+	history = {
+		owner = CAL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CAL
+		add_core_of = DES
+		victory_points = {
+			10159 3
+		}
+	}
+
+	provinces = {
+		4331 7667 10159 11698 710 1601 1432
+	}
+	manpower=18000
+	state_category=rural
+}
