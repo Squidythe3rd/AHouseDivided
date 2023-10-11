@@ -1,0 +1,21 @@
+state={
+	id=994
+	name="STATE_994"
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CAL
+
+	}
+	provinces={
+		4060 4331 4913 7939 10785 10917 
+	}
+	manpower=9823
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

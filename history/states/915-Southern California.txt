@@ -1,0 +1,35 @@
+
+state={
+	id=915
+	name="STATE_915"
+	resources={
+		oil=20.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			4518 5 
+		}
+		victory_points = {
+			3678 5 
+		}
+
+	}
+
+	provinces={
+		941 986 3784 3840 4518 6861 6881 9637 9855 9911 11763 11859 11876 
+	}
+	manpower=1251197
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

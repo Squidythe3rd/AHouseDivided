@@ -1,0 +1,28 @@
+state={
+	id=995
+	name="STATE_995"
+	resources={
+		oil=160.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			10387 5 
+		}
+
+	}
+	provinces={
+		823 1060 1140 1651 4657 4727 7667 7986 10387 10483 10754 11795 12303 12374 
+	}
+	manpower=536226
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
